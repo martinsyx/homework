@@ -1,0 +1,185 @@
+﻿.middle-commoditylist {
+    margin-top: 12rem;
+}
+
+.wrap-menuNavcommmdlist {
+    border-bottom: 1px solid #ccc;
+    margin-top: 4rem;
+}
+
+.menuNavcommmdlistPanel {
+    margin: 0 auto;
+    width: 100%;
+    height: 5rem;
+    overflow: hidden;
+}
+
+
+.menuNavcommmdlistPanel2 {
+    margin: 0 auto;
+    width: 100%;
+    
+    overflow: hidden;
+}
+
+.menuNavcommmdlist a, .menuNavcommmdlist a:hover {
+    text-decoration: none;
+}
+
+.menuNavcommmdlist {
+    margin: 0 auto;
+    width: auto;
+    height: 5rem;
+    background: #fff;
+    padding: 0;
+    padding-left: 1.5rem;
+}
+
+    .menuNavcommmdlist li {
+        margin: .5rem;
+        margin-top: 1rem;
+        width: 20%;
+        text-align: center;
+        float: left;
+        height: 3rem;
+        font-family: 'Microsoft YaHei';
+        -moz-border-radius: 50px; /*这两个是为了兼容其他一些不常用浏览写的css圆角代码*/
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+
+        .menuNavcommmdlist li a {
+            position: relative;
+            display: block;
+            margin-top: 15px;
+            height: 50px;
+            line-height: 50px;
+            -moz-border-radius: 15px; /*这两个是为了兼容其他一些不常用浏览写的css圆角代码*/
+            -webkit-border-radius: 15px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+
+.menuNavli-link {
+    color: #000;
+}
+
+.menuNavlihover {
+    color: #fff;
+    background: #88C13E;
+}
+
+.wrap-commmdlistcontent {
+    margin-top: 20px;
+    height: auto;
+}
+
+.commmdlistcontent-img {
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 98%;
+    border: solid 1px #ccc;
+    height: auto;
+    /*background:#4cff00;*/
+}
+
+    .commmdlistcontent-img img {
+        display: block;
+        /* margin-top: 10px; */
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        width: 100%;
+    }
+
+#blackcolor {
+    font-family: 'Helvetica';
+    color: #000;
+}
+
+.blackcolor {
+    font-family: 'Helvetica';
+    color: #000;
+}
+
+.commmdlistcontent-img a {
+    text-decoration: none;
+}
+
+
+.Appeal {
+    position: relative;
+    margin-top: -2.6rem;
+    height: 2.6rem;
+    width: 100%;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    text-align: left;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.Commodity-doc {
+    margin: 0 auto;
+    width: 100%;
+    height: 6rem;
+    background: #FFF;
+    /* border-left: 1px solid #ccc; */
+    /* border-right: 1px solid #ccc; */
+    /* border-bottom: 1px solid #ccc; */
+    overflow: hidden;
+}
+
+    .Commodity-doc .title {
+        font-family: 'Microsoft YaHei';
+        color: #333;
+    }
+
+    .Commodity-doc .doc-left {
+        float: left;
+        min-width: 68%;
+        height: 2.6rem;
+        color: #333;
+    }
+
+    .Commodity-doc .spanSale{height:6rem; background-color:#FFEE02; margin-left:0.7rem; padding:1px 3px;}
+
+    .Commodity-doc .salePrice {
+        font-family: 'Helvetica';
+    }
+
+    .Commodity-doc .activityPrice {
+        font-family: 'Helvetica';
+        color: #ccc;
+        text-decoration: line-through;
+    }
+
+    .Commodity-doc .pricetag{background-color:#CE0000; color:#ffffff; padding:1px 3px;}
+
+    .Commodity-doc .pricestyle {
+        font-family: 'Microsoft YaHei';
+    }
+
+
+
+    .Commodity-doc .commentcount {
+        margin-right: 2%;
+        float: right;
+        height: 2rem;
+        color: #999;
+    }
+
+    .Commodity-doc .ccount {
+        font-family: 'Helvetica';
+    }

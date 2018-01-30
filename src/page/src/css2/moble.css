@@ -1,0 +1,217 @@
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg)
+    }
+    50% {
+        -webkit-transform: rotate(180deg)
+    }
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes spin {
+    from {
+        -moz-transform: rotate(0deg)
+    }
+    50% {
+        -moz-transform: rotate(180deg)
+    }
+    to {
+        -moz-transform: rotate(360deg)
+    }
+}
+
+@-ms-keyframes spin {
+    from {
+        -ms-transform: rotate(0deg)
+    }
+    50% {
+        -ms-transform: rotate(180deg)
+    }
+    to {
+        -ms-transform: rotate(360deg)
+    }
+}
+
+@-o-keyframes spin {
+    from {
+        -o-transform: rotate(0deg)
+    }
+    50% {
+        -o-transform: rotate(180deg)
+    }
+    to {
+        -o-transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes twinkle {
+    from, to {
+        box-shadow: -2px 0 5px 2px #5bb908
+    }
+    50% {
+        box-shadow: -2px 0 5px 2px rgba(91, 185, 8, 0)
+    }
+}
+
+@-moz-keyframes twinkle {
+    from, to {
+        box-shadow: -2px 0 5px 2px #5bb908
+    }
+    50% {
+        box-shadow: -2px 0 5px 2px rgba(91, 185, 8, 0)
+    }
+}
+
+@-ms-keyframes twinkle {
+    from, to {
+        box-shadow: -2px 0 5px 2px #5bb908
+    }
+    50% {
+        box-shadow: -2px 0 5px 2px rgba(91, 185, 8, 0)
+    }
+}
+
+@-o-keyframes twinkle {
+    from, to {
+        box-shadow: -2px 0 5px 2px #5bb908
+    }
+    50% {
+        box-shadow: -2px 0 5px 2px rgba(91, 185, 8, 0)
+    }
+}
+
+@keyframes twinkle {
+    from, to {
+        box-shadow: -2px 0 5px 2px #5bb908
+    }
+    50% {
+        box-shadow: -2px 0 5px 2px transparent
+    }
+}
+
+
+/*stroll start*/
+
+    .stroll-all-item {
+        width: 50%;
+        float: left;
+    }
+    
+    .stroll-bottom {
+        padding-bottom: 6rem;
+        background: white;
+    }
+    
+    .stroll-bottom .stroll-bottom-txt {
+        width: 100%;
+        overflow: hidden;
+        clear: both;
+        text-align: center;
+        font-size: .9rem;
+        color: #999;
+        line-height: 1.8rem;
+    }
+    
+    .stroll-bottom .stroll-loading {
+        width: 1.5rem;
+        height: 1.5rem;
+        background: #fff;
+        border-radius: 50%;
+        margin: 0 auto;
+        position: relative;
+        -webkit-animation: spin 1s linear infinite;
+        -moz-animation: spin 1s linear infinite;
+        -ms-animation: spin 1s linear infinite;
+        -o-animation: spin 1s linear infinite;
+        animation: spin 1s linear infinite
+    }
+    
+    .stroll-bottom .stroll-loading:before {
+        content: '';
+        width: 1.7rem;
+        height: 1.7rem;
+        border-radius: 50%;
+        position: absolute;
+        top: -.1rem;
+        left: -.1rem;
+        z-index: -1;
+        background-image: -webkit-linear-gradient(90deg,#53b100,transparent,transparent);
+        background-image: linear-gradient(90deg,#53b100,transparent,transparent);
+        background-image: -moz-linear-gradient(90deg,#53b100,transparent,transparent);
+        background-image: -ms-gradient(90deg,#53b100,transparent,transparent);
+        background-image: -o-linear-gradient(90deg,#53b100,transparent,transparent);
+    }
+    
+    .stroll-bottom .stroll-loading:after {
+    content: '';
+    border-radius: 50%;
+          width: 1.5rem;
+          height: 1.7rem;
+          border: .2rem solid #5bb908;
+          border-bottom-color: transparent;
+          border-left-color: transparent;
+          border-right-color: transparent;
+          position: absolute;
+          top: -.2rem;
+          left: -.1rem;
+          z-index: 1;
+          -webkit-transform: rotate(-20deg);
+          -moz-transform: rotate(-20deg);
+          -ms-transform: rotate(-20deg);
+          -o-transform: rotate(-20deg);
+          transform: rotate(-20deg)
+    }
+    .stroll-bottom .stroll-loading .cont {    width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: block;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 2;
+    }
+    .stroll-bottom .stroll-loading .snakehead {
+        width: .5rem;
+        height: .2rem;
+        display: block;
+        background-color: #5bb908;
+        border-radius: 50%;
+        box-shadow: -2px 0 5px 2px #5bb908;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 3;
+        background-image: -webkit-linear-gradient(-90deg, rgba(91, 185, 8, .6), #5bb908);
+        background-image: -moz-linear-gradient(-90deg, rgba(91, 185, 8, .6), #5bb908);
+        background-image: -ms-linear-gradient(-90deg, rgba(91, 185, 8, .6), #5bb908);
+        background-image: -o-linear-gradient(-90deg, rgba(91, 185, 8, .6), #5bb908);
+        background-image: linear-gradient(-90deg, rgba(91, 185, 8, .6), #5bb908);
+        -webkit-transform: rotate(35deg);
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -o-transform: rotate(30deg);
+        transform: rotate(35deg);
+        -webkit-animation: twinkle 1s linear infinite;
+        -moz-animation: twinkle 1s linear infinite;
+        -ms-animation: twinkle 1s linear infinite;
+        -o-animation: twinkle 1s linear infinite;
+        animation: twinkle 1s linear infinite
+    }
+/*stroll end*/

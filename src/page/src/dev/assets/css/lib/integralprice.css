@@ -1,0 +1,202 @@
+﻿/*丽芙家居现金积分列表样式*/
+/*创建人：王斌鑫*/
+/*创建时间：2015.6.25*/
+
+
+.integral-cont {
+    margin-top: 4.8rem;
+    margin-bottom:4.5rem;
+}
+
+/********************头部********************/
+.updateintegralpwd {
+    text-decoration: none;
+    margin-right: .5rem;
+    float: right;
+    color: #fff;
+    margin-top:0.2rem;
+    line-height:1.6rem;
+}
+
+/********************中部********************/
+/*签到*/
+.wrap-DoSignIn {
+    margin: 0 auto;
+    width: 100%;
+    height: 6rem;
+    background: #fff;
+}
+
+    .wrap-DoSignIn ul {
+        margin: 0 auto;
+        padding: 0;
+        width: 98%;
+        height: 6rem;
+        background: #fff;
+    }
+
+        .wrap-DoSignIn ul li {
+            float: left;
+            /*background:#ff6a00;*/
+        }
+
+.li-SignInInfo {
+    font-family: 'Microsoft YaHei';
+    font-size: 1.35rem;
+    margin-left: 2%;
+    margin-top: 1.35rem;
+    width: 50%;
+}
+
+.integrallogo {
+  height: 3rem;
+  width: 3rem;
+  margin-top: 1.5rem;
+}
+
+#p1 {
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+#p2 {
+    margin-bottom: 0px;
+    margin-top: -30px;
+}
+
+#li-SignIn {
+    /*width: 6%;*/
+    margin-top:.5rem;
+    /*padding:1rem;*/
+    /*-moz-border-radius: 0.5rem;*/ /*这两个是为了兼容其他一些不常用浏览写的css圆角代码*/
+    /*-webkit-border-radius: 0.5rem;*/
+    /*border-radius:  0.5rem;*/
+    float: right;
+    text-align: center;
+    color: #ffffff;
+}
+
+.SignIn {
+    background-color: #cccccc;
+}
+
+.noSignIn {
+    background: #88C13E;
+}
+
+.signInmsg {
+    color: #fff;
+     -moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */
+}
+
+
+.link-bar {
+    width: 90%;
+    overflow: hidden;
+    display: block;
+    background-color: #fff;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    padding: 0.7rem 4% 0.5rem 6%;
+    margin:1rem 0;
+    text-align:left;
+    font-size:1.35rem;
+    color:#333333;
+    line-height:2rem;
+    text-decoration:none;
+}
+    .link-bar .i-arr-r {width:1.5rem; height: 2rem; float: right; top:3px;}
+
+
+
+.Integral-tb {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #dddddd;
+}
+
+    .Integral-tb td {
+        color: #ccc;
+    }
+
+    .Integral-tb th,.Integral-tb td {
+        text-align: center;
+        border-right: 1px solid #dddddd;
+        border-bottom: 1px solid #dddddd;
+    }
+    .Integral-tb th {
+        padding: 1rem 0;
+    }
+    .Integral-tb td {
+        padding: 0.3rem 0;
+    }
+     .Integral-tb td.NoWarp {
+        color: #ccc;
+        min-width:6rem;
+    }
+
+
+/********************尾部********************/
+.bottom {
+    position: fixed;
+    bottom: 0px;
+    margin: 0 auto;
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+
+
+li#li2 {
+    border-right: hidden;
+}
+
+#explain a {
+    color: #333333;
+    font-size: 1.35rem;
+    text-decoration: none;
+    padding: 0;
+}
+
+.redColor {
+    padding-left: 0px;
+}
+
+footer {
+    height: 4.5rem;
+}
+    footer table {
+        height: 100%;
+    }
+footer table td {
+    width:50%;
+    height:100%;
+    margin:0;
+    padding:0;
+    font-size:1.35rem;
+    font-weight:bold;
+    vertical-align:middle;
+    text-align: left;
+}
+    footer table td a {
+        width: 100%;
+        height: 3.5rem;
+        display: block;
+        line-height:3.5rem;
+    }
+    footer table td:first-child a::after {
+        content:"";
+        width: 1px;
+        height: 70%;
+        display: block;
+        float: right;
+        border-right: 1px solid #cccccc;
+        margin-top:3%;
+    }

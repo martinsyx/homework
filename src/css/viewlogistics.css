@@ -1,0 +1,143 @@
+﻿body {
+    background-color: #f2f2f2;
+}
+
+.content, .page {
+    width: auto;
+}
+
+.sectPro img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+button {
+    border: 0;
+}
+
+em, i {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sectPro .cont {
+    width: 100%;
+}
+
+.sectPro {
+    width: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+    margin: 1em auto 0;
+}
+
+    .sectPro ul {
+        border-top: 1px solid #E3E3E3;
+        border-bottom: 1px solid #E3E3E3;
+    }
+
+        .sectPro ul li {
+            width: 100%;
+            margin: 0 auto;
+            font-size: 1em;
+            line-height: 1.5em;
+        }
+
+.bodr {
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.express {
+    width: 92%;
+    margin: 0 auto;
+    color: #656565;
+    padding: 1em 0;
+}
+
+.sectPro ul .pdt {
+    padding-top: 1em;
+}
+
+.sectPro ul .statusBg {
+    width: 92%;
+    margin: 0 0 0 auto;
+    border-left: 1px solid #999999;
+    position: relative;
+}
+
+.status {
+    width: 86%;
+    margin: 0 3% 0 auto;
+    padding: 0 0 1em;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.nobdbtm {
+    border-bottom: 0;
+}
+
+.on {
+    color: #009C42;
+}
+
+.current {
+    width: 1.8em;
+    height: 1.8em;
+    background: #ffffff;
+    border: 2px solid #009C42;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: absolute;
+    left: -1.1em;
+    top: 0;
+    z-index: 1;
+}
+
+.nodeOn {
+    width: 1em;
+    height: 1em;
+    background: #ffffff;
+    border: 2px solid #009C42;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.3em;
+    left: 0.27em;
+}
+
+.node {
+    width: 1em;
+    height: 1em;
+    border: 2px solid #999999;
+    border-radius: 50%;
+    background: #ffffff;
+    z-index: 1;
+    position: absolute;
+    left: -0.7em;
+    top: 1em;
+}
+
+@media only screen and (max-width: 320px) {
+    .sectPro ul li {
+        font-size: 0.9em;
+    }
+
+    .current {
+        left: -1em;
+    }
+
+    .node {
+        left: -0.65em;
+    }
+}

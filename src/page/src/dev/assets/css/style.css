@@ -1,0 +1,91 @@
+/* index.html */
+.life-tab{ padding-top: 4rem; }
+.life-tab .mint-navbar{ overflow-x: auto; }
+.life-tab .is-selected .mint-tab-item-label{ border-bottom: 2px solid #80b532; padding-bottom: 1rem; }
+
+.life-thank,.life-discount,.life-newGoods,.life-group,.life-homeClear,.life-cook{ position: relative; }
+.life-thank a,.life-discount a,.life-newGoods a,.life-group a,.life-homeClear a,.life-cook a{ position: absolute; }
+.life-thank a,.life-group a{ top: 0; bottom: 0; }
+.life-thank .a1{ left: 0; right: 75%; }
+.life-thank .a2{ left: 25%; right: 50%; }
+.life-thank .a3{ left: 50%; right: 25%; }
+.life-thank .a4{ left: 75%; right: 0; }
+
+.life-discount a{ left: 0; right: 0; }
+.life-discount .a1{ top: 0; bottom: 75%; }
+.life-discount .a2{ top: 25%; bottom: 50%; }
+.life-discount .a3{ top: 50%; bottom: 25%; }
+.life-discount .a4{ top: 75%; bottom: 0; }
+
+.life-newGoods a{  }
+.life-newGoods .a1{ left: 0; right: 0; top: 7%; bottom: 77%; }
+.life-newGoods .a2{ left: 0; right: 0; top: 24%; bottom: 61%; }
+.life-newGoods .a3{ left: 0; right: 0; top: 40%; bottom: 45%; }
+.life-newGoods .a4{ left: 0; right: 68%; top: 57%; bottom: 29%; }
+.life-newGoods .a5{ left: 34%; right: 34%; top: 57%; bottom: 29%; }
+.life-newGoods .a6{ left: 68%; right: 0; top: 57%; bottom: 29%; }
+.life-newGoods .a7{ left: 0; right: 68%; top: 76%; bottom: 6%; }
+.life-newGoods .a8{ left: 34%; right: 34%; top: 76%; bottom: 6%; }
+.life-newGoods .a9{ left: 68%; right: 0; top: 76%; bottom: 6%; }
+.life-newGoods .a10{ left:30%; right: 30%; top: 94%; bottom: 2%; }
+
+.life-group .a1{ left: 0; right: 67%; }
+.life-group .a2{ left: 34%; right: 34%; }
+.life-group .a3{ left: 67%; right: 0; }
+
+.life-homeClear .a1{ left: 0; right: 50%; top: 20%; bottom: 42%; }
+.life-homeClear .a2{ left: 50%; right: 0; top: 20%; bottom: 42%; }
+.life-homeClear .a3{ left: 0; right: 50%; top: 60%; bottom: 0; }
+.life-homeClear .a4{ left: 50%; right: 0; top: 60%; bottom: 0; }
+
+.life-cook .a1{ left: 0; right: 80%; top: 4%; bottom: 88%; }
+.life-cook .a2{ left: 20%; right: 60%; top: 4%; bottom: 88%; }
+.life-cook .a3{ left: 40%; right: 40%; top: 4%; bottom: 88%; }
+.life-cook .a4{ left: 60%; right: 20%; top: 4%; bottom: 88%; }
+.life-cook .a5{ left: 80%; right: 0; top: 4%; bottom: 88%; }
+.life-cook .a6{ left: 0; right: 0; top: 12%; bottom: 72%; }
+.life-cook .a7{ left: 0; right: 0; top: 29%; bottom: 55%; }
+.life-cook .a8{ left: 0; right: 0; top: 46%; bottom: 39%; }
+.life-cook .a9{ left: 0; right: 0; top: 62%; bottom: 22%; }
+.life-cook .a10{ left: 0; right: 0; top: 79%; bottom: 5%; }
+.life-cook .a11{ left: 30%; right: 30%; top: 96%; bottom: 0; }
+
+.mintui-search{ vertical-align: middle; margin-right: .4rem; }
+.life-allGoods{ background: #f2f2f2; }
+.life-goods-list{ width: 24%; text-align: center; background: #f2f2f2; }
+.life-goods-list li{ height: 3.6rem; line-height: 3.6rem; border-bottom: 1px solid #ddd; font-size: 1.4rem; }
+.life-goods-list li.active{ background: #80b532; color: #fff; }
+.life-goods-show{ width: 76%; background: #fff; }
+.life-goods-show li{ float: left; width: 33.33333%; padding: 1rem 0; }
+.life-goods-show li a{ display: block; text-align: center; }
+.life-goods-show li a span{ overflow: hidden; text-overflow: ellipsis; height: 1.4rem;
+    display: block; line-height: 1.4rem; white-space: nowrap; }
+
+
+
+
+
+/* 改的mintUi.css里面的 */
+.life-tab .mint-navbar .mint-tab-item { padding: 1.2rem 1rem 0; font-size: 1.575rem; display: table; }
+.life-tab .mint-navbar .mint-tab-item.is-selected {
+    border-bottom: none;
+    color: #80b532;
+    margin-bottom: 0;
+}
+.life-tab .mint-tab-item-label{ font-size: 1.5rem; }
+.mint-swipe-items-wrap > div{  position: static; }
+
+.mint-header{ background: #80b532; height: 4rem; line-height: 4rem; font-size: 2rem; }
+.mint-searchbar-placeholder .mintui-search,.mint-searchbar-placeholder,.mint-searchbar-cancel{ font-size: 1.5rem; }
+
+.mint-tabbar > .mint-tab-item.is-selected{ color: #80b532; }
+.mint-tabbar.is-fixed{ min-width: 320px; max-width: 640px; margin: auto; }
+.mint-searchbar{ background: #f2f2f2; }
+.mint-searchbar::before{ border-bottom: none; }
+
+
+
+
+
+
+

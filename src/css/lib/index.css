@@ -1,0 +1,476 @@
+﻿/*丽芙家居首页样式*/
+/*创建人：王斌鑫*/
+/*创建时间：2015.6.11*/
+
+
+
+/*****************头部*****************/
+header.home-page {
+    background-color: transparent;
+}
+.wrap-heard {
+    width: auto;
+    height: 4rem;
+    background:#89be48;
+}
+
+/*---- 含有顶部APP下载panle是的避让 ----*/
+article.home-body.avoid{margin-top:11.2rem;}
+article.home-body,article.home-body.un-avoid{margin-top:7.2rem;}
+
+
+.head-typeimg {
+    margin-top: 1.5rem;
+    display: block;
+    width: 4.5rem;
+    height: 3.1rem;
+    float: right;
+    /* margin-right: 2rem; */
+    position: absolute;
+    z-index: 1000;
+    top: -18px;
+    right: 0px;
+    /* background-position: -10px -10px; */
+    background-image: url('//i1.lifevccdn.com/images/h5/core/search.ico');
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+
+.playimgcaption{width:100%; background-color:rgba(194, 194, 194,.15); text-align:center; font-size:16px; color:#000000; position:absolute; top:4rem; z-index:99;}
+
+.wrap-menuNavNewProduct {
+    position: relative;
+    z-index: 1100;
+    background: #f0f1f3;
+    /*display:none;*/
+}
+
+
+
+
+.menuNavNewProductPanel {
+    margin: 0 auto;
+  position: relative;
+  width: 100%;
+  border-bottom: solid 1px #ccc;
+  height: 3.2rem;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+ /*::-webkit-scrollbar {
+		  width: 1px;
+	}*/ 
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.menuNavNewProduct {
+  position: relative;
+  z-index: 1101;
+  /*width:1275px;*/
+  height: 3.2rem;
+  overflow:hidden;
+  line-height: 3.2rem;
+  float: left;
+  /* overFlow-x: scroll; */
+  /* overflow: hidden; */
+}
+
+.menuNavNewProduct li{height:3.2rem; float:left; padding:0 1.2rem;}
+.menuNavNewProduct li a{height:3rem; display:block; line-height:3rem; position:relative;}
+.menuNavNewProduct a.selected{border-bottom:0.2rem solid #80B532; color:#80B532;}
+
+
+.menuNavNewProductDetailsimg {
+    position:absolute;
+    right: 0px;
+    top:0;
+    z-index: 1102;
+    margin-top: 0px;
+    width: 20px;
+    height: 3.2rem;
+    background: #f0f1f3;
+    cursor: pointer;
+    padding-right:10px;
+    /*display:none;*/
+}
+    .menuNavNewProductDetailsimg .chkDetailsimg {float:none; margin:5px 0 0;}
+
+.btnright {
+    margin-left: -7px;
+}
+
+/*****************banner活动*****************/
+.huodongcenter {
+    width: 100%;
+    background-color:#ffffff;
+    border-bottom:1px solid #dddddd;
+    text-align: center;
+    margin: 0 auto;
+    padding:0;
+}
+.huodongcenter img{width:100%; display:block; vertical-align:top;}
+
+.huodongimg {
+    width: 33%;
+    /* float: left; */
+    text-align: center;
+    display: inline-block;
+}
+
+.huodongcenter.temporary {
+    padding: 7px 0;
+}
+.imgsize {
+    margin: 0 auto;
+    width: 7.5rem;
+    height:4.2rem;
+    background-position: center;
+}
+
+
+    .imgsize img {
+        width: 3.5rem;
+        /*height:4.3rem;*/
+        display:inline;
+        background-size:50%;
+    }
+
+    .imgsize .imgNew {
+        width: 5rem;
+        height:3.8rem;
+    }
+
+
+
+.commoditynum {
+    position: relative;
+    z-index: 997;
+    margin-top: -2.3rem;
+    margin-left: 4rem;
+    display: block;
+    width: 3rem;
+    height: 1.4rem;
+    line-height: 1.5rem;
+    background: #F7931e;
+    -moz-border-radius: 15px; /*这两个是为了兼容其他一些不常用浏览写的css圆角代码*/
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    border: 3px solid #fff;
+    color: #fff;
+    font-family: Arial;
+    font-size: 1.35rem;
+}
+
+.commoditynumNewCom {
+    margin-top: -1.7rem;
+    margin-left: 4.5rem;
+}
+
+.huodongimg span {
+    font-size: 1.35rem;
+    text-align: center;
+}
+
+
+
+
+/*-------- 通告栏 --------*/
+.bulletins {
+    background-color: #ffffff;
+}
+    .bulletins li {
+        width: 100%;
+        border-bottom:1px solid #dddddd;
+        overflow:hidden;
+        text-align: left;
+        font-size: 1.5rem;
+        padding:0.6rem 0;
+    }
+    .bulletins .bul-ico {
+        width: 5%;
+        max-width:17px;
+        display: block;
+        float: left;
+        margin-left:2%;
+        position:relative;
+        top:0.3rem;
+    }
+    .bulletins .bul-txt {
+        width: 90%;
+        float: left;
+        text-align: left;
+        padding-left:2%;
+    }
+
+
+
+
+/*****************年中*****************/
+.wrap-midyear {
+    margin-top: 20px;
+    height: auto; /*background:#0026ff;*/
+}
+
+.midyear {
+    margin-top: 2px;
+    height: 60px;
+    /*border-bottom:1px solid #ccc;*/
+    /*background:#4cff00;*/
+}
+
+
+
+.midyear-img {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 750px;
+    height: 320px;
+    border-top: 1px solid #ccc; /*background:#4cff00;*/
+}
+
+    .midyear-img img {
+        display: block;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px;
+    }
+
+
+
+/*****************享受夏天美味时光*****************/
+.wrap-specialActivity {
+    margin-top: 20px;
+    height: auto;
+}
+
+.specialActivity {
+    margin-top: 2px;
+    /*height: 60px;*/
+}
+    .specialActivity .text-title {
+        font-size: 1.7rem;
+        font-weight:normal;
+    }
+
+.specialActivity-img {
+    margin: 0 auto;
+    /*margin-top: 3rem;*/
+    width: 100%;
+    height: auto;
+}
+
+    .specialActivity-img img {
+        width: 96%;
+        display:block;
+        margin:1rem auto 2rem;
+    }
+
+
+
+/*****************每日都有新品*****************/
+.wrap-dailyNewProduct {
+    margin-top: 20px;
+    height: auto;
+}
+.wrap-dailyNewProduct img{width:100%;}
+
+.dailyNewProduct {
+    margin-bottom:-1rem;
+}
+.item-act-info {
+    width: 96%;
+    line-height:2.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:1rem;
+}
+.dailyNewProduct .text-title {
+        font-size: 1.9rem;
+        font-weight:normal;
+    }
+
+.dailyNewProduct-img {
+    margin:2rem auto 0;
+    width: 96%;
+}
+
+    .dailyNewProduct-img img {
+        width: 100%;
+        display: block;
+        margin: 10px auto 0;
+        position:relative;
+        z-index:5;
+    }
+.wrap-dailyNewProduct .full-column img {
+    display:block;
+    position: relative;
+    z-index: 5;
+}
+
+
+    .index-topic {
+    margin: 0 auto;
+   
+}
+
+
+
+
+/* 专题活动货架 */
+.hm-act-shelf{background-color:#ffffff; padding-top:0.5em;}
+
+
+
+/*****************会员们最喜欢*****************/
+.wrap-vipbestlove {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+.vipbestlove {
+    margin-top: 2px;
+    height: auto;
+}
+
+.wrap-itemimg {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.vipbestlove-list {
+    margin: 0 auto;
+    overflow:hidden;
+    /*height: auto;*/
+    /*height:222rem;*/
+}
+
+
+.vipbestlove-item {
+    /*margin: 1rem 0 0.5rem 0;*/
+    width: 45%;
+    float: left;
+    /*margin-left: 4%;*/
+    margin: 1rem 2.5% 0.5rem;
+}
+
+    .vipbestlove-item img {
+        max-width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+
+
+    .vipbestlove-item .Appeal {
+        margin-top: -4.3rem;
+        height: 4rem;
+        width: 100%;
+        filter: alpha(opacity=50);
+        -moz-opacity: 0.5;
+        -khtml-opacity: 0.5;
+        opacity: 0.5;
+        text-align: left;
+        background-color: #000000;
+        color: #fff;
+        text-decoration: none;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+.wrap-doc-vipbestlove {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 7rem;
+    background: #FFF;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    color: #2e2e2e;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: -3px;
+}
+
+    .wrap-doc-vipbestlove .title {
+        font-family: 'Helvetica Se';
+        padding-left: 1rem;
+        margin-top:1.5rem;
+        color: #000;
+        font-weight: 600;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .wrap-doc-vipbestlove .spanSale {
+        margin-left: 1rem;
+        background-color: #FFEE02;
+        font-weight:600;
+    }
+
+    .wrap-doc-vipbestlove .salePrice {
+        font-family: 'Helvetica';
+        font-weight:600;
+    }
+
+    .wrap-doc-vipbestlove .activityPrice {
+        font-family: 'Helvetica';
+        color: #ccc;
+        text-decoration: line-through;
+        font-weight:600;
+    }
+
+    .wrap-doc-vipbestlove .pricetag{background-color:#CE0000; color:#ffffff;}
+
+
+
+
+ul, li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+
+h2 {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+
+
+.PType-Sel {
+    background-color: #fff;
+    color: #80B532;
+}
+
+.PType-Def {
+}
+
+/*货架之间banner样式*/
+.wrap-footBanner{width:100%; margin:2rem auto 0;}
+.wrap-footBanner img{width:100%; display:block; vertical-align:top;}
+.footBanner{display:block; background:#cc0000; text-align:center; font-size:1.4em; color:#ffffff; line-height:1.4em; margin:0 auto; padding:0.2em 0;}
+
+
+
+
+
+/*#loading {height:50%; background-color:#000000; background:rgba(0,0,0,0.7); top:0; padding-top:100%;}*/

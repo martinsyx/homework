@@ -1,0 +1,105 @@
+﻿.top {
+        margin:0 auto;
+    margin-top:120px;
+    line-height:80px;
+    height: 120px;
+    width: 750px;
+    background-color: #fff;
+}
+.accountico {
+    width: 750px;
+}
+
+    .accountico span {
+    margin-top:25px;
+        font-size: 1.8em;
+        line-height: 1.5em;
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+    }
+span#accountico {
+    margin-top:30px;
+     height: 60px;
+    width: 60px;
+    background-position: -20px -990px;
+    background-image: url(//i1.lifevccdn.com/images/h5/core/lifevc-ios-ico.png);
+    background-repeat: no-repeat;
+    background-size: 700%;
+}
+.btn {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    width: 180px;
+    height: 80px;
+    float:right;
+     margin-top: 20px;
+    margin-right: 20px;
+    background-color: #b1aeae;
+     border-radius:20px;
+     border:none;
+}
+.jifentable {
+    margin-top:10px
+}
+table.gridtable {
+    margin:0 auto;
+    width:750px;
+	font-size:1.5em;
+	color:#333333;
+    background-color:#fff;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.gridtable th {
+	border:1px solid #ccc;
+	padding: 16px;
+	background-color: #fff;
+}
+table.gridtable td {
+    font-size:0.8em;
+    height:auto;
+    text-align:center;
+	padding: 3px;
+	border:1px solid #ccc;
+	background-color: #ffffff;
+    color:#ccc;
+}
+.bottom {
+    position:fixed;
+    bottom:0px;
+    margin:0 auto;
+    height: 60px;
+    width: 750px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+#explain {
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+    #explain li {
+        width:335px;
+        margin-top: 10px;
+        float: left;
+        border-right: solid 1px #ccc;
+        height: 40px;
+        line-height: 2em;
+    }
+li#jifenzhidu {
+      border-right:hidden;
+}
+
+    #explain a {
+        color: #333333;
+        background-color: #fff;
+        font-size: 22px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+

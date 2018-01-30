@@ -1,0 +1,339 @@
+﻿/*=================================================================== 通用
+=====================================================================*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0;}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary{display:block;}
+
+*{margin:0; padding:0;-webkit-tap-highlight-color:transparent; -webkit-appearance:none;}
+html{font-size:62.5%;}
+body{margin:0; padding:0; width:100%; /*height:100%;*/ font-family:"Microsoft YaHei",Helvetica,STHeiti,"Droid Sans Fallback"; background:#f2f2f2;}
+iframe, img{border:0 none;}
+ul, ol{list-style:none outside none;}
+input, textarea, keygen, select, button{outline:0 none; font-family:"\5FAE\8F6F\96C5\9ED1","Microsoft YaHei",Helvetica,STHeiti,"Droid Sans Fallback";}
+
+.nohover{color:#808080;}
+
+.float-right{float:right;}
+.float-left{float:left;}
+
+.font-large{font-size:1.575rem; line-height:3.2rem;}
+.font-medium{font-size:1.35rem; line-height:2.6rem;}
+.font-mediumSmall{font-size:1.4rem; line-height:1.4rem;}
+.font-small{font-size:1.2rem; line-height:1.2rem;}
+.font-bestsmall{font-size:1rem; line-height:1rem;}
+
+
+
+/*---- Radio Button  ----*/
+.radio-button{font-size:1.4rem; color:#666666; line-height:1.3rem; position:relative; display:inline-block; float:left; vertical-align:top; cursor:pointer; margin-right:2rem; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;}
+input[type="radio"]{width:16px; height:16px; overflow:hidden; border:0; vertical-align:top; outline:none; opacity:0.001; margin-top:0; margin-right:-16px; margin-bottom:-16px; margin-left:0; padding:0; position:absolute; z-index:1;}
+.radio-button_checkmark{width:20px; height:20px; display:inline-block; vertical-align:top; cursor:pointer; -moz-box-sizing:border-box; box-sizing:border-box; background-clip:padding-box; position:relative; margin-right:12px; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;}
+.radio-button_checkmark:before, .radio-button_checkmark:after{content:''; position:absolute;}
+.radio-button_checkmark:before{width:20px; height:20px; background-color:transparent; border:2px solid #cccccc; border-radius:50%;}
+.radio-button_checkmark:after{opacity:0; width:12px; height:7px; background:transparent; border:2px solid #ffffff; border-top:none; border-right:none; top:6px; left:5px; -webkit-transform:rotate(-50deg); -moz-transform:rotate(-50deg); -o-transform:rotate(-50deg); -ms-transform:rotate(-50deg); transform:rotate(-50deg);}
+input[type="radio"]:checked + .radio-button_checkmark:before{background-color:#83b842; border-color:#83b842;}
+input[type="radio"]:checked + .radio-button_checkmark:after{opacity:1;}
+input[type="radio"]:disabled + .radio-button_checkmark:before,
+input[type="radio"][disabled] + .radio-button_checkmark:before{border-color:#dddddd; background-color:#efefef;}
+input[type="radio"]:disabled ~ span, input[type="radio"][disabled] ~ span{color:#aaaaaa;}
+.radio-button span{display:inline-block; margin-top:4px;}
+
+
+/*---- CheckBox | Radio ----*/
+.selectwrap{display:inline-block; overflow:hidden; line-height:20px; cursor:pointer; float:left;}
+.selectwrap .slct{width:19px; height:19px; display:inline-block; float:left; background-color:#ffffff; border:1px solid #9b9b9b; border-radius:50%; position:relative;}
+.selectwrap.selected .slct{background-color:#8ec351; border-color:#84be43;}
+.selectwrap.selected .slct:after{content:""; width:11px; height:5px; display:block; border-bottom:2px solid #fafafa; border-left:2px solid #fafafa; font-size:0; line-height:0; position:absolute; left:3px; top:4px;
+-webkit-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-ms-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+transform:rotate(-45deg);}
+.selectwrap .slct-txt{text-align:left; font-size:1.35rem; color:#4a4a4a; padding-left:0.6rem;}
+.selectwrap.disabled{background:none !important; border:0 !important;}
+.selectwrap.disabled .slct{background-color:#f6f6f6; border-color:#aaaaaa;}
+.selectwrap.disabled .slct:after{display:none;}
+
+
+
+
+
+
+/*****************************页面头部/*****************************/
+header{margin:0; padding:0; width:100%; height:4rem; background:#89be48; position:fixed; top:0; z-index:999;}
+.header-Ico{display:block; width:100%; height:4rem; background:url(http://i1.lifevccdn.com/images/h5/icon/title.png) no-repeat; background-size:60%; background-position:center;}
+#page{margin:0 auto; padding:0; width:100%;}
+.leftback-img{width:1rem; height:3rem; display:block; float:left; background:url(http://i1.lifevccdn.com/images/h5/core/tubiao.png) no-repeat; background-position:-6px -9px;
+position:absolute; left:4%; top:0.8rem;}
+.header-content{width:100%; margin:0 auto; position:relative;}
+.filler{height:1.1rem; width:100%;}
+.header-title{margin:0 auto; line-height:4rem; font-size:2rem; text-align:center; color:#fff;}
+
+
+
+
+
+
+
+
+/*****************************页面中部/*****************************/
+article{width:100%; margin:0px auto; margin-top:4rem; margin-bottom:4.5rem; color:#2e2e2e;}
+
+.middle{position:relative; margin:0 auto; padding-bottom:160px; height:auto; margin-top:6rem;}
+.middlecontext{padding-bottom:1rem; height:auto;}
+.text-title{text-align:center; font-weight:500;}
+.chkDetails{margin-top:20px; margin-left:auto; margin-right:auto; width:96%; height:3.5rem; border:1px solid #ccc; background:#fff; text-align:center; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;}
+.chkDetails a{width:100%; height:100%; display:block; color:#000000; text-decoration:none;}
+.chkDetails span{margin:0 auto; display:block; margin:0 auto; line-height:3.5rem; width:100%;}
+.chkDetailsimg{display:block; background:url(http://i1.lifevccdn.com/images/h5/icon/rightarrow1.ico) no-repeat; margin-top:-3rem; margin-right:1%; width:30px; height:30px; float:right;}
+.i-arr-r{width:20px; height:20px; display:inline-block; position:relative; left:8px; top:6px;} .i-arr-r:before,.i-arr-r:after {content:""; height:0; font-size:0; line-height:0; display:block; border-style:solid; border-width:9px 0 9px 9px; border-color:transparent #ffffff; position:absolute; left:0; top:0; z-index:9;} .i-arr-r:after {border-color:transparent #a9a9a9; left:2px; z-index:8;}
+
+.showdiv{display:block;}
+.hidediv,.hide{display:none;}
+
+
+
+
+/*-------- 货架 --------*/
+.shelf-item{width:96%; border:1px solid #dddddd; margin:2rem auto 0;}
+.shelf-item .item-pic-bx{width:100%; overflow:hidden; display:block; position:relative;}
+.shelf-item .item-pic{width:100%; display:block; vertical-align:top; margin:0 auto; position:static;}
+.shelf-item .promo-corner{width:100%; display:block; vertical-align:top; position:absolute; left:0; top:0; z-index:3;}
+.shelf-item .profile{width:94%; overflow:hidden; background-color:#000000; background:rgba(0,0,0,0.4); text-align:left; font-size:1.35rem; color:#ffffff; line-height:2.6rem; text-overflow:ellipsis; white-space:nowrap; margin:0 auto; padding:0 3%; position:absolute; left:0; bottom:0; z-index:5;}
+.shelf-item .item-panel{width:100%; overflow:hidden; background:#ffffff; /*outline:1px solid #eeeddd;*/ font-size:1.35rem; color:#333333; line-height:2.6rem; padding-bottom:0.3rem;}
+.shelf-item .item-panel .title{width:94%; overflow:hidden; text-align:left; font-size:1.35rem; color:#333333; line-height:2.6rem; text-overflow:ellipsis; white-space:nowrap; margin:0 auto; padding-top:0.5rem;}
+.shelf-item .item-panel .item-price{width:94%; overflow:hidden; margin:0 auto;}
+.shelf-item .item-panel .price-cont{min-width:68%; overflow:hidden; float:left; line-height:1.8rem; margin-top:0.2rem;}
+.shelf-item .item-panel .item-comment{float:right; text-align:right; color:#999999;}
+.shelf-item .item-panel .act-tag, .shelf-item .item-panel .act-tag-red, .shelf-item .item-panel .promo-lable {
+    display: inline-block;
+    background-color: #c00;
+    padding: 1px 3px
+}
+.shelf-item .item-panel .act-tag {
+    background-color: #fff000
+}
+.shelf-item .item-panel .act-tag-red,
+.shelf-item .item-panel .promo-lable{display:inline-block; background-color:#cc0000; padding:1px 3px;}
+.shelf-item .item-panel .act-tag-red,
+.shelf-item .item-panel .promo-lable{background-color:#cc0000; color:#ffffff;}
+.shelf-item .item-panel .original-price{color:#cccccc; text-decoration:line-through;}
+
+/*---- 促销Banner ----*/
+.promo-banner{width:100%; display:block; text-align:center; margin:2rem auto 0;}
+
+
+.item-pic{position:relative; z-index:5;}
+.doc{width:100%; height:4rem; margin-top:-4rem; filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity:0.5; opacity:0.5; text-align:left; background-color:#000000; color:#fff; text-decoration:none; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; position:relative; z-index:6;}
+.doc-text{width:94%; margin:0 auto; position:relative; text-align:left; color:#fff; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; z-index:7;}
+.nav-doc{margin:0 auto; width:100%; height:7rem; background:#FFF; outline:1px solid #dddddd; overflow:hidden; position:relative; z-index:1;}
+.nav-doc .title{width:94%; color:#333; font-family:'Microsoft YaHei'; margin:0 auto; padding-top:1rem;} 
+.nav-doc .item-price{width:94%; height:2.6rem; overflow:hidden; margin:0 auto; position:relative;} 
+.nav-doc .doc-left{min-width:68%; height:2.6rem; overflow:hidden; float:left; color:#333;}
+.nav-doc .spanSale{height:6rem; background-color:#FFEE02; padding:1px 3px;}
+.nav-doc .salePrice{font-family:'Helvetica';}
+.nav-doc .activityPrice{font-family:'Helvetica'; color:#ccc; text-decoration:line-through;}
+.nav-doc .pricetag{background-color:#CE0000; color:#ffffff; padding:1px 3px;}
+.nav-doc .pricestyle{font-family:'Microsoft YaHei';}
+.nav-doc .commentcount{margin-right:2%; float:right; height:2rem; color:#999;}
+.nav-doc .ctext{}
+.nav-doc .ccount{font-family:'Helvetica';}
+
+.clr{display:block; overflow:hidden; clear:both; height:0; line-height:0; font-size:0;}
+
+
+
+
+
+/*****************************页面尾部/*****************************/
+footer{width:100%; height:4.5rem; background:#f8f8f8; border-top:1px solid #f6f6f6; padding:0; position:fixed; bottom:0; z-index:999;}
+#footermenuNav{width:96%; height:4.5rem; background:#f8f8f8; text-align:center; margin:0 auto; padding:0 2%;}
+#footermenuNav li{width:18%; height:4.5rem; display:inline-block; margin:0; padding: 0; position:relative;}
+#footermenuNav a{width:100%; height:4.5rem; display:block; text-align:center; font-size:1.2rem; color:#808080; text-decoration:none;}
+#footermenuNav .nav-title{width:100%; display:block; line-height:1.6rem;}
+#footermenuNav .cur a{color:#6fbd00;}
+#footermenuNav .i-foot{width:1.68rem; height:1.68rem; display:block; background-repeat:no-repeat; background-size:100%; background-position:center top; margin:0.8rem auto 0.1rem; position:relative;}
+
+#footermenuNav .i-home{background-image:url('http://i1.lifevccdn.com/images/m/h5/foot_home@2x.png');}
+#footermenuNav .cur .i-home{background-image:url('http://i1.lifevccdn.com/images/m/h5/foot_home_on@2x.png');}
+
+#footermenuNav .i-pro{background-image:url('http://i1.lifevccdn.com/images/m/h5/foot_pro@2x.png');}
+#footermenuNav .cur .i-pro{background-image:url('http://i1.lifevccdn.com/images/m/h5/foot_pro_on@2x.png');}
+
+#footermenuNav .i-cart{background-image:url('http://i1.lifevccdn.com/images/m/h5/foot_cart@2x.png');}
+#footermenuNav .cur .i-cart{background-image:url('http://i1.lifevccdn.com/images/m/h5/foot_cart_on@2x.png');}
+#footermenuNav .i-cart .hint{display:inline-block; height:12px; background-color:#f8f8f8; border:1px solid #ab2c2b; border-radius:7px; text-align:center; font-size:10px; color:#ab2c2b; line-height:12px; font-family:Arial, Helvetica, sans-serif; padding:0 3px; position:absolute; right:-10px; top:-3px;}
+#footermenuNav .cur .i-cart .hint{background-color:#6fbd00; border-color:#f8f8f8; color:#ffffff;}
+
+#footermenuNav .i-account{background-image:url('http://i1.lifevccdn.com/images/m/h5/foot_account@2x.png');}
+#footermenuNav .cur .i-account{background-image:url('http://i1.lifevccdn.com/images/m/h5/foot_account_on@2x.png');}
+#footermenuNav .i-account .hint{width:4px; height:4px; overflow:hidden; display:block; background-color:#ab2c2b; border-radius:50%; position:absolute; right:-3px; top:0;}
+
+
+
+/*页面使用的颜色*/
+.redColor{color:#cc0000;}
+
+.Font3rem{font-size:3rem;}
+
+
+
+
+
+
+
+
+
+
+/* ANIMATIONS
+============================================================================= */
+
+/* leaving animations ----------------------------------------- */
+/* rotate and fall */
+@keyframes rotateFall{
+	0%{transform:rotateZ(0deg);}
+	20%{transform:rotateZ(10deg); animation-timing-function:ease-out;}
+	40%{transform:rotateZ(17deg);}
+	60%{transform:rotateZ(16deg);}
+	100%{transform:translateY(100%) rotateZ(17deg);}
+}
+
+/* slide in from the bottom */
+@keyframes slideOutLeft{
+	to{transform:translateX(-100%);}
+}
+@keyframes slideOutRight{
+	to{transform:translateX(100%);}
+}
+
+/* rotate out newspaper */
+@keyframes rotateOutNewspaper{
+	to{transform:translateZ(-3000px) rotateZ(360deg); opacity:0;}
+}
+
+/* entering animations --------------------------------------- */
+/* scale up */
+@keyframes scaleUp{
+	from{opacity:0.3; -webkit-transform:scale(0.8);}
+}
+
+/* slide in from the right */
+@keyframes slideInRight{
+	from{transform:translateX(100%);}
+	to{transform:translateX(0);}
+}
+
+@keyframes slideInLeft{
+	from{transform:translateX(-100%);}
+	to{transform:translateX(0);}
+}
+
+/* slide in from the bottom */
+@keyframes slideInUp{
+	from{transform:translateY(100%);}
+	to{transform:translateY(0);}
+}
+
+
+.ng-enter{z-index:8888;}
+.ng-leave{z-index:9999;}
+
+/* page specific animations ------------------------ */
+
+/* home -------------------------- */
+.page-usercenter.ng-enter{animation:slideInRight 0.5s both ease-in;}
+.page-usercenter.ng-leave{animation:slideOutLeft 0.5s both ease-out;}
+.page-normal.ng-enter{transform-origin:0% 0%; animation:slideInRight 5s both ease-in;}
+.page-normal.ng-leave{animation:slideOutLeft 5s both ease-out;}
+
+.mb-datepicker{position:fixed; z-index:9999;}
+
+.full-column{width:96%; margin:0 auto;}
+.full-column img{width:100%;}
+
+.half-column{width:48%;}
+.half-column img{width:100%;}
+
+
+/*#loading{width:100%; min-height:3rem; position:absolute; left:0; top:50%; z-index:9999;}*/
+#loading{width:90px; height:90px; background-color:#000000; background:rgba(0,0,0,0.6); border-radius:10px; margin-left:-45px; position:fixed; left:50%; top:40%; z-index:9999;}
+#loading span{width:3rem; height:3rem; display:block;
+	    border:2px solid #666666; border-right-color:transparent;
+	    border-radius:50%;
+	    box-shadow:0 0 10px 2px #cccccc;
+	    /*margin:1rem auto;*/     margin:2rem auto 0;
+	    -webkit-animation:rotate 1s linear infinite;
+	    -moz-animation:rotate 1s linear infinite;
+	    -ms-animation:rotate 1s linear infinite;
+	    -o-animation:rotate 1s linear infinite;
+	    animation:rotate 1s linear infinite;}
+
+@-webkit-keyframes rotate
+{
+	from { -webkit-transform:rotate(0deg); opacity:0.4;}
+	50%  { -webkit-transform:rotate(180deg); opacity:1;}
+	to   { -webkit-transform:rotate(360deg); opacity:0.4;}
+}
+@-moz-keyframes rotate
+{
+	from { -moz-transform:rotate(0deg); opacity:0.4;}
+	50%  { -moz-transform:rotate(180deg); opacity:1;}
+	to   { -moz-transform:rotate(360deg); opacity:0.4;}
+}
+@-ms-keyframes rotate
+{
+	from { -ms-transform:rotate(0deg); opacity:0.4;}
+	50%  { -ms-transform:rotate(180deg); opacity:1;}
+	to   { -ms-transform:rotate(360deg); opacity:0.4;}
+}
+@keyframes rotate
+{
+	from { transform:rotate(0deg); opacity:0.2;}
+	50%  { transform:rotate(180deg); opacity:1;}
+	to   { transform:rotate(360deg); opacity:0.2;}
+}
+
+
+.fouce-item{background-color:#10b122; color:white;}
+.fouce{background-color:#10b122;}
+.unfouce{background-color:white;}
+
+.Hot{color:#cc0000;}
+
+.nav-close{height:4rem}
+.nav-open{height:auto;}
+
+.item-status-empty{width:7rem; height:7rem; background-color:rgba(0,0,0,0.6); border-radius:50%; 
+text-align:center; vertical-align:middle; font-size:1.5em; color:#ffffff; line-height:7rem; font-weight:bold;
+position:absolute; left:50%; top:50%; margin-top:-4rem; margin-left:-3.5rem;}
+
+#share{width:100%; height:100%; display:none; background:rgba(0, 0, 0, 0.8); text-align:center; position:fixed; top:0; left:0; z-index:9998; -webkit-user-select:none;}
+#share img{max-width:353px;}
+.mask #share, .share-mask #share{display:block;}
+.arrow{width:70%; position:absolute; right:12%; top:12%;}
+
+
+
+
+
+/*---- 返回页面顶部按钮 ----*/
+.toTop{width:42px; height:42px; display:block; overflow:hidden; background-color:#000000; background:rgba(0,0,0,0.6); border-radius:50%; color:#ffffff; position:fixed; right:2%; bottom:70px; z-index:99; display:none;}
+.toTop:after{content:""; width:17px; height:17px; display:block; border-style:solid; border-width:2px 2px 0 0; border-color:#ffffff; font-size:0; line-height:0; margin:17px auto 0; 
+transform:rotate(-45deg);
+-ms-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-webkit-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);}
+
+
+
+
+/*---- 顶部APP下载panle ----*/
+.top-bar-app{width:100%; height:4rem; background:url("http://i1.lifevccdn.com/images/h5/AppDownBar_160808.png") no-repeat center center #333333; background-size:100%; text-align:center; position:fixed; left:0; top:0; z-index:999; display:table-cell;}
+.top-bar-app.hide{display:none;}
+.top-bar-app .close{width:10%; height:4rem; display:inline-block; float:left;}
+.top-bar-app .download{width:89%; height:4rem; display:inline-block;}
+/*-- 含有顶部APP下载panle是的避让 --*/
+header.avoid{top:4rem;}
+/*header.avoid .leftback-img{top:4.8rem;}*/
+header.un-avoid{top:0;}
+/*header.un-avoid .leftback-img{top:0.8rem;}*/

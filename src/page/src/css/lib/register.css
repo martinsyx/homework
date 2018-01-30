@@ -1,0 +1,91 @@
+﻿/*===================================================================
+    注册|登录
+=====================================================================*/
+.acct-wrap{margin-top:40px; margin-bottom:0;}
+
+#us-login-cont{padding-bottom:1rem;}
+
+
+/*-------- Top Start --------*/
+.acct-top-back{width:28px; height:28px; display:block; border:1px solid #cccccc; border-radius:50%; position:absolute; left:10px; top:10px;}
+.acct-top-back:after{content:""; width:10px; height:10px; display:block; border-left:1px solid #aaaaaa; border-top:1px solid #aaaaaa; position:absolute; left:11px; top:8px;
+transform:rotate(-45deg);
+-ms-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-webkit-transform:rotate(-45deg);
+-o-transform:rotate(-45deg); 
+}
+.acct-top-show{width:36.8%; overflow:hidden; display:block; margin:0 auto 1.5rem;}
+/*-------- /Top End --------*/
+
+
+
+
+/*-------- Tab Start --------*/
+.register-tab{width:100%; overflow:hidden; text-align:center; margin:0 auto; padding-top:0.5rem;}
+.register-tab ul{width:67%; display:block; margin:0 auto; padding:0; list-style:none;}
+.register-tab li{width:49%; float:left; background-color:transparent; border:solid 1px #009c42; padding:0; margin:0 auto; color:#009c42; line-height:3rem; text-decoration:none;}
+.register-tab .li-link{}
+.register-tab .li-hover{color:#ffffff; background-color:#009c42;}
+.register-tab li:first-child{border-bottom-left-radius:5px; border-top-left-radius:5px;}
+.register-tab li:last-child{border-bottom-right-radius:5px; border-top-right-radius:5px;}
+/*-------- /Tab End --------*/
+
+
+
+
+/*---- Link居中 ----*/
+.tip-top{width:80%; overflow:hidden; text-align:left; font-size:1.5rem; color:#666666; line-height:2rem; margin:0 auto; padding:1rem 0 0;}
+
+
+
+
+/*-------- 表单列表 Start --------*/
+.fm-list{width:96%; background-color:#ffffff; border-bottom:1px solid #e3e3e3; border-top:1px solid #e3e3e3; padding:0 0 0 4%; margin:1rem 0 0;}
+.fm-list.m-none{margin:0;}
+.fm-list li{width:100%; overflow:hidden; border-bottom:1px solid #e3e3e3; padding:0.8rem 0; position:relative;}
+.fm-list li:last-child{border:0;}
+.fm-list .field-tt{width:26%; float:left; text-align:right; font-size:1.5rem; line-height:2rem; color:#666666; vertical-align:middle;}
+.field-tt-modify{width:37%; float:left; text-align:right; font-size:1.5rem; line-height:2rem; color:#666666; vertical-align:middle;}
+
+@media only screen and (max-width:320px)
+{
+	.field-tt-modify{width:40%; float:left; text-align:right; font-size:1.5rem; line-height:2rem; color:#666666; vertical-align:middle;}
+}
+
+.fm-list .field-ipt{width:67%; display:block; background-color:#ffffff; padding:0; border:0; margin:0; outline:none; float:left; text-align:left; font-size:1.1rem; line-height:2rem; vertical-align:middle;}
+.fm-list .field-ipt.tip-error{color:#ff0000;}
+.fm-list .multi .field-ipt{width:45%;}
+.fm-list .multi .field-btn{width:23%; display:inline-block; float:right; background-color:#009c42; border:0; border-radius:4px; text-align:center; font-size:1.1rem; color:#ffffff; line-height:2.2rem; text-decoration:none; margin:0 4% 0 0; padding:0 5px;}
+.fm-list .multi .field-btn.disabled{background-color:#cccccc !important; color:#666666 !important;}
+.fm-list .multi .fidld-skip{display:inline-block; float:right; text-align:right; font-size:1.1rem; color:#009c42; line-height:2rem; text-decoration:none; margin:0 4% 0 0;}
+
+.verifyCode{position:relative;}
+.codeImg{width:20%; position:absolute; top:50%; transform:translate(0,-50%);}
+.refreshImg{width:5.5%; position:absolute; top:50%; right:6%; transform:translate(0,-50%);}
+
+.registerNum{font-size:1.5rem; line-height:2rem; padding:1rem 0 0 1rem;}
+
+/*-------- /表单列表 End --------*/
+
+
+
+
+/*---- Link居中 ----*/
+.set-link{padding:1.5rem 0; text-align:center; font-size:1.25rem;}
+.set-link a{color:#0066cc; text-decoration:none;}
+
+
+/*---- Button ----*/
+.btn-com{width:92%; overflow:hidden; display:block; margin:0 auto; background-color:#009c42; border:1px solid #009c42; border-radius:5px; outline:none; text-align:center; font-size:1.9rem; color:#ffffff; line-height:3.6rem;}
+.btn-com.hollow{background-color:transparent; color:#009c42;}
+.btn-com.space{letter-spacing:2rem; text-indent:2rem;}
+.btn-com.m-top{margin-top:1.5rem;}
+
+
+/*---- link快速帮助 ----*/
+.conv-entry{width:92%; overflow:hidden; margin:0 auto; padding:2rem 0 1.5rem; text-align:center; font-size:1.25rem; color:#666666; line-height:1.4rem;}
+.conv-entry.align-r{text-align:right;}
+.conv-entry a{color:#666666; text-decoration:none;}
+.conv-entry .split{width:1px; height:1rem; display:inline-block; border-left:1px solid #999999; margin:0 25px;}
+

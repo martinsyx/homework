@@ -1,0 +1,76 @@
+﻿        .checkbox {
+            height: 5rem;
+            width: 4rem;
+        }
+
+        .default {
+        }
+
+        .checked {
+            background-image: url(//i1.lifevccdn.com/images/h5/icon/rightgreen.ico);
+            background-position: -28px -26px;
+        }
+
+        .address {           
+            margin-bottom: .5rem;
+            background-color: #fff;
+            padding-left: 1rem;
+            
+        }
+
+        .warp_add_btn {
+            margin-top: .5rem;
+            width: 100%;
+            height: 3rem;
+            background-color: #fff;
+            margin-bottom: 1rem;
+        }
+
+        .add_btn {
+            width: 50%;
+            color: #88C13E;
+            background-image: url(//i1.lifevccdn.com/images/h5/icon/plusgreen.ico);
+            background-position: center left;
+            background-size: 30%;
+            height: 3rem;
+            background-repeat: no-repeat;
+            border: 0px;
+            background-color: #fff;
+            margin: 0 auto;
+            margin-left: 24%;
+        }
+
+
+          form table {
+            border-collapse: collapse;
+        }
+
+            form table tr th {
+                background-color: #fff;
+                text-align: right;
+                width: 30%;
+                font-weight: 200;
+                border-bottom: 1px solid #ccc;
+            }
+
+            form table tr td {
+                background-color: #fff;
+                border-bottom: 1px solid #ccc;
+            }
+
+        form input,
+        form select {
+            height: 100%;
+            background-color: #fff;
+            border: 0px;
+            width: 90%;
+            font-family: 'Microsoft YaHei';
+        }
+
+        form button {
+            border: 0px;
+            background-color: #88C13E;
+            width: 50%;
+            color: #fff;
+            margin: .5rem 25%;
+        }

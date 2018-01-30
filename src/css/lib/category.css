@@ -1,0 +1,53 @@
+﻿/*===================================================================
+    品类页
+=====================================================================*/
+.main-body-shelf{margin:8.5rem 0 7em;}
+
+
+/*-------- 分类：二级分类 --------*/
+.wrap-subcat{width:96%; overflow:hidden; margin:0.5em auto;}
+.wrap-subcat a{width:24.3%; height:2.5em; overflow:hidden; float:left; background-color:#ffffff; 
+text-align:center; font-size:0.9em; color:#333333; line-height:2.5em; text-decoration:none; text-overflow:ellipsis; white-space:nowrap;
+margin:2px 2px 0 0; padding:0;}
+
+
+
+/*-------- Promo Banner --------*/
+.cat-top-promo-banner{width:100%; margin:1.5em auto 0;}
+.cat-top-promo-banner img{width:100%; display:block; vertical-align:top;}
+
+
+
+
+/*-------- 引导Banner --------*/
+.category-banner{width:100%; margin:1.5em auto 0;}
+.category-banner img{width:100%; display:block; vertical-align:top;}
+
+
+
+
+/*-------- Shelf --------*/
+.wrap-shelf{width:100%; margin:-7em auto 2em; padding:8em 0 0;}
+.subcat-title{max-width:96%; text-align:center; font-size:1.9em; color:#000000; line-height:2em; margin:0 auto -1.2em;}
+
+
+
+
+/*===================================================================
+    每日一帖
+=====================================================================*/
+.daily-wrap{margin-top:4.8rem; margin-bottom:0;}
+.daily-wrap .daily-item{width:100%; overflow:hidden; background-color:#ffffff; margin:0.8rem auto 0;}
+.daily-wrap .daily-item a{width:100%; overflow:hidden; display:block; text-decoration:none;}
+.daily-wrap .daily-item .title{width:90%; overflow:hidden; text-align:left; font-size:1.6rem; color:#333333; line-height:2.2rem; margin:0 auto; padding:0.5rem 0;}
+.daily-wrap .daily-item .date{width:90%; overflow:hidden; text-align:left; font-size:1.3rem; color:#cccccc; line-height:1.6rem; margin:0 auto; padding:0 0 0.6rem;}
+.daily-wrap .daily-item .item-show{width:100%; overflow:hidden; position:relative;}
+.daily-wrap .daily-item .item-show img{width:100%; overflow:hidden; display:block;}
+.daily-wrap .daily-item .item-show .title{width:88%; height:3rem; overflow:hidden; background:rgba(0,0,0,0.4); text-align:left; font-size:1.4rem; color:#ffffff; line-height:3rem; white-space:nowrap; text-overflow:ellipsis; margin:0 auto; padding:0 9% 0 3%; position:absolute; left:0; bottom:0;}
+.daily-wrap .daily-item .item-show .title:after{content:""; width:12px; height:12px; display:inline-block; border-top:2px solid #bbbbbb; border-right:2px solid #bbbbbb; position:absolute; right:10px; top:10px;
+transform:rotate(45deg);
+-ms-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-webkit-transform:rotate(45deg);
+-o-transform:rotate(45deg); 
+}

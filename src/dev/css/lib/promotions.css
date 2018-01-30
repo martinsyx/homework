@@ -1,0 +1,162 @@
+
+
+/*===================================================================
+    新版促销活动
+=====================================================================*/
+/*-------- Filter --------*/
+.filter-panel-nest{width:100%; height:3.5rem; margin:0 auto;}
+.filter-panel{width:100%; height:3.5rem; overflow:hidden; overflow-x:auto; background-color:#ffffff; border-bottom:1px solid #e9e9e9; margin:0 auto; position:relative; left:0; top:0;}
+.filter-panel.fixed{position:fixed; z-index:999;}
+.filter-panel .filter{width:100%; height:3.5rem; overflow:hidden; float:left; line-height:3.5rem; position:relative; z-index:19;}
+.filter-panel .filter li{min-width:33%; height:3.5rem; float:left; font-size:1.6rem; position:relative;}
+.filter-panel .filter li:after{content:""; width:1px; height:1.8rem; overflow:hidden; display:block; border-right:1px solid #e2e2e2; position:absolute; right:0; top:0.9rem;}
+.filter-panel .filter li:last-child:after{display:none;}
+.filter-panel .filter li a{width:100%; height:3.5rem; display:block; text-align:center; line-height:3.5rem;  position:relative;}
+.filter-panel .filter li i{width:10px; height:1.5rem; display:inline-block; position:relative; left:5px;top:1px}
+.filter-panel .filter li i:before,.filter-panel .filter li i:after{content:""; width:5px; height:5px; display:block; overflow:hidden; border-style:solid; border-color:#a3a3a3; position:relative;}
+.filter-panel .filter li i:before{border-width:1px 1px 0 0; top:2px;
+transform:rotate(-45deg);
+-ms-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-webkit-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+}
+
+.filter-panel .filter li i:after{border-width:0 1px 1px 0; top:-1px;
+transform:rotate(45deg);
+-ms-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-webkit-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+}
+.filter-panel .filter .selected a{color:#88c13e;}
+.filter-panel .filter .asc i:before,.filter-panel .filter .desc i:after{border-color:#009c42;}
+.filter-panel .filter .desc i:before,.filter-panel .filter .asc i:after{border-color:#a3a3a3;}
+
+
+
+/*-------- 倒计时 --------*/
+.countdown-wrap-nest
+{
+    height: 50px;
+}
+.countdown-wrap,.countdown-wrap .countdown{width:100%; overflow:hidden; background-color:#ffffff; text-align:center; margin:0 auto;}
+.countdown-wrap{height:50px; overflow:hidden; border-bottom:1px solid #e9e9e9;}
+.countdown-wrap .countdown{font-size:1.5rem; color:#cc0000; line-height:2rem; padding:1rem 0;}
+.countdown-wrap .countdown .describe{display:inline-block; color:#000000; margin-right:5px; position:relative;}
+.countdown-wrap .countdown .describe:before{content:"剩余时间"; display:inline-block; color:#000000; margin-right:5px;}
+.countdown-wrap .countdown em{display:inline-block; background-color:#cc0000; border-radius:3px; font-size:1.7rem; color:#ffffff; line-height:2rem; font-family:Arial, Helvetica, sans-serif; font-style:normal; margin-right:2px; padding:0 3px;}
+.countdown-wrap.fixed{position:fixed; z-index:999;}
+/*-- 不显示天 --*/
+.un-day .countdown{color:#999999; padding:0 0 0.5rem;}
+.un-day .countdown .cont{display:inline-block; border-top:1px solid #cccccc; padding-top:0.8rem;}
+.un-day .countdown .describe{display:block; line-height:1.6rem; margin:-0.8rem auto 0;}
+.un-day .countdown .describe:before{background-color:#ffffff; padding:0 1rem; position:relative; top:0.8rem;}
+.un-day .countdown em{background-color:#333333;}
+.un-day .countdown .microsecond{background-color:#cc0000;}
+/*-- 简洁 --*/
+.c-simple,.c-simple .countdown{background-color:transparent; border:0;}
+.c-simple .countdown{color:#666666;}
+.c-simple .countdown .describe{margin:0;}
+.c-simple .countdown .describe:before{content:"还剩"; color:#666666; margin:0;}
+.c-simple .countdown em{background-color:transparent; color:#666666; margin:0; padding:0;}
+.c-simple .countdown .microsecond{background-color:transparent;}
+
+
+
+
+/*-------- Theme Banner --------*/
+.theme-wrap{width:100%; overflow:hidden; margin:0 auto;}
+.theme-wrap li{margin-bottom:1rem;}
+.theme-wrap img{width:100%; overflow:hidden; display:block; vertical-align:top;}
+
+
+
+
+/*-------- Navagation --------*/
+.nav-panel-nest{width:100%; height:3.5rem; margin-bottom:1rem;}
+.nav-panel{width:100%; height:3.5rem; text-align:center; overflow:hidden; overflow-x:auto; background-color:#ffffff; border-bottom:1px solid #e9e9e9; margin:0 auto; position:relative; left:0; top:0;}
+.nav-panel.fixed{position:fixed; z-index:999;}
+.nav-panel .nav{/*width:1275px;*/ height:3.5rem; overflow:hidden; float:left; line-height:3.5rem; position:relative; z-index:19;}
+.nav-panel .nav li{height:3.5rem;display:inline-block; font-size:1.6rem;}
+.nav-panel .nav li a{height:3.3rem; display:block; line-height:3.5rem; margin-left:-1px; padding:0 2.5rem; position:relative;}
+.nav-panel .nav li a:before{content:""; width:1px; height:1.8rem; overflow:hidden; display:block; border-right:1px solid #e2e2e2; position:absolute; left:0; top:0.9rem;}
+.nav-panel .nav li:first-child a:before{display:none;}
+.nav-panel .nav .selected a{border-bottom:0.2rem solid #cc0000; color:#cc0000;}
+
+
+
+
+/*-------- 货架 --------*/
+.shelf-group-wrap,.shelf-wrap{width:100%; overflow:hidden; margin:0 auto;}
+.shelf-title-wrap{width:100%; overflow:hidden; margin:1rem auto 0;}
+.shelf-title-wrap .shelf-title{width:96%; overflow:hidden; text-align:center; font-size:1.9rem; line-height:2rem; margin:0 auto;}
+.shelf-title-wrap .shelf-subtitle{width:96%; overflow:hidden; text-align:center; font-size:1.5rem; line-height:2rem; margin:0.3rem auto 0;}
+.shelf-title-wrap .shelf-title-show{width:100%; overflow:hidden; display:block; vertical-align:top; margin:0.5rem auto 0;}
+.shelf-banner{width:100%; overflow:hidden; margin:1rem auto 0;}
+.shelf-banner li{margin-bottom:1rem;}
+.shelf-banner img{width:100%; overflow:hidden; display:block; vertical-align:top;}
+
+.shelf-wrap .shelf-item{margin:0 auto 2rem;}
+
+
+
+
+
+
+/*===================================================================
+    单品叫卖专题
+=====================================================================*/
+.page-single .theme-wrap{background-color:#ffffff;}
+.page-single .countdown-wrap-nest{margin-top:-1rem;}
+.page-single .countdown-wrap{border:0;}
+.shelf-teletext{width:100%; overflow:hidden; margin:0 auto;}
+.shelf-teletext .item{width:92%; overflow:hidden; margin:0 auto 3rem;}
+.shelf-teletext .item-show{width:100%; overflow:hidden; margin:0 auto;}
+.shelf-teletext .item-show img{width:100%; overflow:hidden; display:block; vertical-align:top;}
+.shelf-teletext .item-title{width:100%; overflow:hidden; text-align:center; font-size:2.1rem; color:#000000; line-height:3rem; font-weight:bold; padding:2rem 0 0;}
+.shelf-teletext .item-info{width:100%; overflow:hidden; text-align:left; font-size:1.5rem; color:#333333; line-height:1.8rem; padding:0.4rem 0 0;}
+.shelf-teletext .item-tag{width:100%; overflow:hidden; text-align:center; font-size:1.5rem; color:#222222; line-height:2rem; padding-top:0.7rem;}
+.shelf-teletext .item-tag .tag{display:inline-block; background-color:#f1f1f1; margin:5px 1px 0; padding:0.2rem 0.8rem; position:relative;}
+.shelf-teletext .item-tag .tag-promo{color:#cc0000;}
+.shelf-teletext .item-tag .tag-price:after{content:""; height:0; border-style:solid; border-width:4px 0 4px 4px; border-color:transparent #cc0000; font-size:0; line-height:0; display:block; position:absolute; right:5px; top:8px; z-index:9;}
+.shelf-teletext .item-tag .tag-price em{display:inline-block; font-size:1.6rem; color:#cc0000; font-family:Arial, Helvetica, sans-serif; font-style:normal; margin:0 6px 0 4px;}
+.shelf-teletext .item-tag .tag-price em span{display:inline-block; color:#999999; text-decoration:line-through; margin-left:3px;}
+
+.share-wrap{width:100%; background-color:#ffffff; margin:0 auto; padding:0.5rem 0 1rem;}
+.share-wrap .title{width:88%; border-top:1px solid #999999; text-align:center; margin:0 auto;}
+.share-wrap .title span{display:inline-block; background-color:#ffffff; text-align:center; font-size:1.6rem; color:#999999; line-height:1.8rem; letter-spacing:2px; padding:0 0.8rem; position:relative; top:-1rem;}
+.share-wrap .cont{width:88%; text-align:center; margin:0 auto;}
+.share-wrap .cont a{width:20%; display:inline-block; margin:0 2%;}
+.share-wrap .cont img{width:80%; overflow:hidden; display:block; vertical-align:top; margin:0 auto;}
+.share-wrap .cont .tt{width:100%; overflow:hidden; display:block; text-align:center; font-size:1.5rem; color:#333333; line-height:2rem; padding-top:0.2rem;}
+
+
+
+
+/*===================================================================
+    单品叫卖专题列表
+=====================================================================*/
+
+.online
+{
+    width:90%;
+    color:#000000;
+    margin:1.5rem auto .2rem;
+    border-top:1px solid #cccccc;
+    text-align:center;
+}
+
+.listtime
+{
+    
+    display:inline-block;
+    line-height:1.6rem;
+    position:relative;
+    top:-.8rem;
+    background:#ffffff;
+    padding:0 1rem;
+    font-size:1.5rem;
+    color:#cccccc;
+}
+

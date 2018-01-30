@@ -1,0 +1,42 @@
+
+.sd-container {
+  position: relative;
+}
+
+.sd-del-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.sd-btns {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  box-sizing: border-box;
+  margin-right: -100px;
+  height: 105px;
+}
+
+.sd-btn {
+  position: absolute;
+  width: 50px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.sd-update-btn {
+  left: 0px;
+  background: #ddd;
+  color: #333;
+}
+
+.sd-del-btn {
+  right: 0px;
+  background: #ff0000;
+  color: #fff;
+}

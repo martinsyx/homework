@@ -1,0 +1,124 @@
+﻿/*丽芙家居发票信息样式*/
+/*创建人：王斌鑫*/
+/*创建时间：2015.7.06*/
+
+
+
+#menu {
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 100%;
+    height: 5.8rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+    #menu .menu-content {
+        margin: 0 auto;
+        padding: 0;
+        width: 95%;
+        height: 5.5rem;
+    }
+
+.ptitle {
+    padding-top: 0.9rem;
+    text-align: left;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 95%;
+    height: 2rem;
+    display: block;
+}
+
+    ul li {
+        padding: 0px;
+        margin: 0 auto;
+        /*margin-top:0.3rem;*/
+        margin-right: 1rem;
+        height: 2rem;
+        line-height: 2rem;
+        list-style: none;
+    }
+
+#menu li.li-link {
+    padding: 0;
+    padding: .1rem .5rem;
+    float: left;
+    border: solid 1px #ccc;
+    font-size: 1.35rem;
+    background-color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+
+#menu li.li-link.hover {
+    
+    border: solid 1px #88C13E;
+    color:#fff;
+    background-color: #88C13E;
+  
+}
+
+.DaoFuTiShi {
+    padding: .1rem 4%;
+}
+
+    .DaoFuTiShi p {
+        margin: 0;
+        padding: 0;
+        padding-top: 0.5rem;
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+
+
+.wrap-taitou {
+    width: 100%;
+    height: 9rem;
+    background: #fff;
+}
+
+.taitou-content {
+    margin: 0 auto;
+    padding: 0;
+    width: 95%;
+    height: 2.5rem;
+}
+
+
+.textInfo {
+    padding: 0.2rem;
+    width: 95%;
+    height: 2rem;
+    border: 1px solid #ccc;
+}
+
+.wrap-ok {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+    .wrap-ok .btnOK {
+        margin-top: 2rem;
+        width: 95%;
+        height: 4rem;
+    }
+
+
+
+div#setting {
+    padding-top: 3rem;
+    text-align: center;
+    height: 3rem;
+}
+
+#setting a {
+    color: #0026ff;
+    text-decoration: none;
+}

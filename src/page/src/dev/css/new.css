@@ -1,0 +1,118 @@
+/* index.html */
+.life-tab{ padding-top: 4rem; overflow-x: auto; }
+.life-tab .life-nav{ height: 4rem; line-height: 4rem; font-size: 1.6rem;overflow-y: hidden; overflow-x: auto; width: 200%; }
+.life-tab .life-nav ul li{ display: inline-block; padding: 0 1rem; float: left; }
+.life-tab .life-nav li.select span{ color: #80b532; border-bottom: 2px solid #80b532; height: 3.8rem; display: block; }
+
+.life-module{ /*padding-bottom: 4.8rem;*/ }
+.wrap-catmap{margin: 4rem auto !important; }
+.search-panel .searchinput, .search-panel .searchfouce{ line-height: 3rem; }
+
+.allselect-ul .btn-com .cart-btn-del{ top: -4% !important; }
+.binding-tip{ background: red; color: #fff; padding: 0 .2rem; margin-right: .6rem; }
+.total-tip{ background: red; color: #fff; padding: 0 .2rem; margin-right: .6rem; }
+.li-shopimg a{ display: -webkit-box; }
+dd div.commdtyImage { margin: 0 0 2%; }
+
+.life-reorder-label{ width: 24px; height: 24px; display: inline-block; }
+.life-reorder-label input{ width: 24px !important; height: 24px !important; border: 1px solid #ccc !important; position: static !important; opacity: 1 !important; }
+.life-reorder-label input.checked{ background-image: url(//i1.lifevccdn.com/images/h5/icon/Selected.ico);
+    background-size: 180%; background-position: -.8rem -.6rem; border: none !important; }
+dd div.checked-radio{ margin-top: 3px; }
+.btn-done { padding: .6rem 0; }
+.fm-list .field-ipt{ height: 2rem; line-height: 2rem; }
+.font-medium tr{ height: 3rem; line-height: 3rem; }
+
+footer{ min-width: 320px; max-width: 640px; margin: auto;}
+
+.life-content, .page{width:auto;}
+.container{max-width:640px; padding:1rem 0 0;}
+.sect-article{width:92%; text-align:left; font-size:1rem; color:#666666; line-height:1.8rem; margin:0 auto; padding:0;}
+.sect-article .title{font-size:1.6rem; color:#333333; margin:0; padding:0 0 1rem;}
+.sect-article .cont{overflow:hidden; padding:0 0 1.5rem;}
+.sect-article p{display:block; overflow:hidden; padding-bottom:0.5rem;}
+.sect-article .item-title{font-weight:bold; padding:0.8rem 0 0;}
+.sect-article .list-title{padding:0;}
+.sect-article .list{list-style:square inside; padding-bottom:0.5rem;}
+/* 多个子版块 */
+.sect-sub{width:92%; overflow:hidden; background-color:#ffffff; border-style:solid; border-color:#e3e3e3; border-width:1px 0; text-align:left; font-size:1em; color:#989898; line-height:1.6em; margin-top:0.5rem; margin-bottom:1.5rem; padding:4% 4% 5%;}
+.sect-sub h3{font-size:1.4em; color:#333333; line-height:1.8em;}
+.sect-sub h4{font-size:1em; color:#333333; line-height:1.7em;}
+
+.sect { width: 100%; overflow: hidden; border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3; margin: 1em auto 0; background: #fff; padding: .7rem 0; }
+.curt-cont { width: 90%; text-align: left; font-size: 1.4rem; color: #666; line-height: 1.5rem; margin: 0 auto; }
+.curt-level { color: #333; font-size: 1.5rem; font-weight: 700; }
+.level-line { position: relative; padding: 0; }
+.level-intro { width: 90%; border-bottom: 1px solid #e3e3e3; text-align: left; font-size: 1.4rem;
+    color: #666; line-height: 1.5rem; margin: 0 0 0 5%; padding: .7rem 5% .7rem 0; }
+.userLevel { width: 90%; margin: 1.6rem 0 2.5rem auto; }
+.userLevel li { width: 100%;  border-left: 5px solid #B3B3B3; margin: 0 0 0 auto; position: relative; }
+.userLevel .curt, .userLevel .curt img, .userLevel .ensure, .userLevel .ensure img { border-color: #009d42; }
+.userLevel .level-info { width: 85%; overflow: hidden; border-bottom: 1px solid #e3e3e3; margin: 0 0 0 auto; padding: 1.6rem 4% 1.6rem 2%; }
+.userLevel li:first-child .level-info { padding-top: 0; }
+.userLevel .level-info .title { display: inline-block; float: left; font-size: 1.5rem; color: #000; text-align: left; }
+.userLevel .level-info .describe { display: inline-block; float: right; font-size: 1.2rem; color: #666; text-align: right; padding-right: .5rem; }
+.level-cursor { width: 0; height: 0; display: none; border-style: solid;
+    border-width: 6px 0 6px 8px; border-color: transparent #009C42;
+    line-height: 0; position: absolute; left: -5%; bottom: -7px; }
+.userLevel li img { width: 12%; max-width: 45px; border: 5px solid #B3B3B3;
+    border-radius: 50%; position: absolute; top: .6rem; left: -8%; }
+.userLevel li:first-child img { top: -1rem; }
+.level-cursor { width: 0; height: 0; display: none; border-style: solid; border-width: 6px 0 6px 8px;
+    border-color: transparent #009C42; line-height: 0; position: absolute; left: -5%; bottom: -9px; }
+.userLevel .curt .level-cursor { display: block; }
+
+/* allGoods.html */
+.life-goodsAll{ margin-top: 7rem; }
+.life-goodsTip{ width: 10rem; margin: auto; text-align: center; }
+.life-goodsTip dl{ height: 3rem; line-height: 3rem; font-size: 1.4rem; }
+.life-goodsTip .life-goodsMark{ border-bottom: 1px solid #ccc; font-size: 1.8rem; letter-spacing: .4rem; position: relative; }
+.life-goodsTip .life-goodsMark .mark{ position: absolute; top: 0; background: none; font-size: .6rem;
+    letter-spacing: 0; height: 2rem; line-height: 2rem; }
+.life-goodsTip dl:last-child{ line-height: 2.4rem; }
+.life-goodsUl{ background: #fff; }
+.life-goodsUl li{ float: left;width: 33.3333%; text-align: center; }
+.life-goodsUl li a{ display: block; }
+.life-goodsUl li a img{ width: 80%; margin: auto; }
+.life-goodsUl li a dl{ height: 2rem; line-height: 2rem; }
+.life-goodsAll .life-goodsBox{ margin-top: 2rem; }
+
+.od-list-wrap .tab-state { max-width: 640px; min-width: 320px; margin: auto; }
+.life-child-thank li{ width: 25% !important; margin: 1rem 0; }
+
+
+
+
+
+/*************************屏幕适配*************************/
+@media screen and (min-width:320px) and (max-width: 768px){
+    body,header,footer,.od-list-wrap .tab-state{ min-width: 320px; max-width: 768px; }
+    .life-tab .life-nav{ width: 100%; }
+}
+
+
+/* 改的mintUi.css里面的 */
+.life-tab .mint-navbar .mint-tab-item { padding: 1.2rem 1rem 0; font-size: 1.575rem; display: table; }
+.life-tab .mint-navbar .mint-tab-item.is-selected {
+    border-bottom: none;
+    color: #80b532;
+    margin-bottom: 0;
+}
+
+.life-tab .mint-tab-item-label{ font-size: 1.5rem; }
+
+.mint-header{ background: #80b532; height: 4rem; line-height: 4rem; font-size: 2rem; }
+.mint-searchbar-placeholder .mintui-search,.mint-searchbar-placeholder,.mint-searchbar-cancel{ font-size: 1.5rem; }
+
+.mint-tabbar > .mint-tab-item.is-selected{ color: #80b532; }
+.mint-tabbar.is-fixed{ min-width: 320px; max-width: 640px; margin: auto; }
+.mint-searchbar{ background: #f2f2f2; }
+.mint-searchbar::before{ border-bottom: none; }
+
+.page-tabbar{ z-index: 199999; }
+
+
+
+
+

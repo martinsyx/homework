@@ -1,0 +1,68 @@
+﻿
+/*.first, .second, .third {
+    line-height: 80px;
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.first {
+    border-top: hidden;
+}*/
+
+/*.secondone, .secondtwo {
+    width: 100%;
+    line-height: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}*/
+
+label.name {
+    margin-left: 80px;
+}
+
+/*span.var {
+    width: 445px;
+    float: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 4em;
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+}*/
+
+ 
+
+
+
+#button {
+    margin-top: 15px;
+    margin-right: 50px;
+    float: right;
+    height: 50px;
+    width: 60px;
+    border: none;
+    background-color: #fff;
+    background-position: -310px -1620px;
+    background-image: url('//i1.lifevccdn.com/images/h5/core/lifevc-ios-ico.png');
+    background-repeat: no-repeat;
+    background-size: 900%;
+}
+
+.btn {
+    color: #ffffff;
+    font-size: 1.9rem;
+    width: 88%;
+    margin-top: 20px;
+    margin-left: 6%;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.btn-done {
+        background-color: #3c9a35;
+}

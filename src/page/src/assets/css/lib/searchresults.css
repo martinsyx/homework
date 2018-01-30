@@ -1,0 +1,101 @@
+﻿/*丽芙家居搜索列表样式*/
+/*创建人：王斌鑫*/
+/*创建时间：2015.6.14*/
+
+/******************************头部******************************/
+.search-header {
+    height:185px;
+}
+
+
+.wrap-menuNavsearchresult {
+    width: 100%;
+    height: 80px;
+}
+
+.menuNavsearchresultPanel {
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.menuNavsearchresult a, .menuNavsearchresult a:hover {
+    text-decoration: none;
+}
+
+.menuNavsearchresult {
+    position: relative;
+    z-index: 1101;
+    margin:0 auto;
+    width: 750px;
+    height: 80px;
+    float: left;
+    background:#fff;
+    border-bottom:10px solid #ccc;
+}
+
+
+    .menuNavsearchresult li {
+        margin-top: 15px;
+        margin-left: 12px;
+        margin-right: 6px;
+        width: 150px;
+        text-align: center;
+        float: left;
+        position: relative;
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        font-size: 32px;
+        -moz-border-radius: 15px; /*这两个是为了兼容其他一些不常用浏览写的css圆角代码*/
+        -webkit-border-radius: 15px;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+
+
+
+.menuNavli-link {
+    color: #000;
+}
+
+.menuNavlihover {
+    background: #88C13E;
+}
+
+
+/******************************中部******************************/
+.middle-searchresult {
+    margin-top:185px;
+}
+
+
+.wrap-searchresultcontent {
+    margin-top: 220px;
+    height: auto;
+}
+
+.searchresultcontent-img {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 100%;
+    height: 320px;
+    /*background:#4cff00;*/
+}
+
+    .searchresultcontent-img img {
+        display: block;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px;
+    }
+
+  #blackcolor {
+    color:#000;
+}

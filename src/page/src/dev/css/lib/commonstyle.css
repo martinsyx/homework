@@ -1,0 +1,93 @@
+﻿
+
+#wrap {
+    margin: 0px auto;
+    padding: 0px;
+    /*width: 100%;*/
+    height: auto;   
+}
+
+.pattern {
+    padding-left:1rem;
+    text-align: left;
+    height: 5rem;
+    line-height:5rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.pattern2 {
+    padding-left:1rem;
+    height: 3rem;
+    line-height:1.5rem;
+    width: 70%;
+    border: none;
+}
+
+div#verif {
+    margin-top:2rem;
+    text-align: center;
+    height: 6rem;
+    line-height:6rem;
+    background-color: #fff;
+}
+
+
+.btn {
+    color: #fff;
+    font-weight: bold;
+    width: 98%;
+    height: 5rem;
+    margin: 0 auto;
+    margin-top:3rem;
+    display: block;
+    background-color: #3c9a35;
+    border: none;
+}
+
+div#hint {
+    padding-left: 50px;
+    height: 55px;
+    font-size: 3.5rem;
+    color: #747171;
+}
+#hintbox {
+    display:block;
+    margin:0 auto;
+    width:55%;
+}
+
+div#hint2 {
+    padding-left: 50px;
+    height: 50px;
+    font-size: 18px;
+    color: #f00;
+}
+
+div#re-login {
+    text-align: center;
+}
+
+div#forget-password {
+    margin-top:2rem;
+    padding-right: 5%;
+    text-align: right;
+    height: 6rem;
+}
+
+#forget-password a {
+    color: #000000;
+    text-decoration: none;
+}
+.filler {
+     height: 15%;
+    width: 100%;
+}
+
+.pattern2Err {
+    height: 40px;
+    width: 40%;
+    border: none;
+    font-size: 1em;
+    color:red;
+}

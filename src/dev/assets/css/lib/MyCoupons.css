@@ -1,0 +1,69 @@
+﻿/*===================================================================
+    优惠券
+=====================================================================*/
+.coupon-wrap{margin-top:4.5rem; margin-bottom:1.5rem;}
+.coupon-wrap .cp-item{width:96%; overflow:hidden; background-color:#ffffff; border:1px solid #eeeeee; text-align:left; color:#999999; margin:0 auto 0.9rem; padding:0.5rem 0 0; position:relative;}
+.coupon-wrap .cp-item .cp-code{width:90%; font-size:1.4rem; line-height:2rem; margin:0 auto;}
+.coupon-wrap .cp-item .cp-state{min-width:5.5rem; display:inline-block; background-color:#ffb839; text-align:center; font-size:1.5rem; color:#ffffff; line-height:2.4rem; position:absolute; right:0; top:0;}
+.coupon-wrap .cp-item .cp-cont{width:88%; overflow:hidden; margin:0 auto; padding:0.5rem 0;}
+.coupon-wrap .cp-item .cp-cont .denomination{width:50%; float:left;}
+.coupon-wrap .cp-item .cp-cont .prefix{font-size:2rem; position:relative; bottom:1px;}
+.coupon-wrap .cp-item .cp-cont .num{font-size:3.6rem;}
+.coupon-wrap .cp-item .cp-cont .suffix{font-size:2rem;}
+.coupon-wrap .cp-item .cp-cont .cp-title{width:49%; overflow:hidden; float:left; color:#666666;}
+.coupon-wrap .cp-item .cp-cont .sub-title{min-width:70%; overflow:hidden; display:inline-block; border-bottom:1px solid #999999; text-align:center; font-size:1.5rem; line-height:2rem;}
+.coupon-wrap .cp-item .cp-cont .title{min-width:70%; overflow:hidden; display:inline-block; text-align:center; font-size:1.8rem; line-height:2rem;}
+.coupon-wrap .cp-item .valid-period{width:90%; border-top:2px dotted #ffb839; font-size:1.5rem; line-height:2.8rem; margin:0 auto; padding:0 5%;}
+.coupon-wrap .cp-item.disabled{background-color:#ffffff !important; color:#999999 !important;}
+.coupon-wrap .cp-item.disabled .valid-period,
+.coupon-wrap .cp-item.disabled .cp-cont .sub-title{border-color:#aaaaaa;}
+.coupon-wrap .cp-item.disabled .cp-title{color:#999999;}
+
+
+
+
+
+/*===================================================================
+    促销差价补偿
+=====================================================================*/
+.diff-wrap{margin-top:4.5rem; margin-bottom:1.5rem;}
+/*---- 说明 ----*/
+.diff-info{width:94%; overflow:hidden; background-color:#ffffff; border-bottom:1px solid #ededed; border-top:1px solid #ededed; text-align:left; font-size:1.6rem; color:#999999; line-height:2rem; margin:0 auto 1rem; padding:1rem 3%;}
+.diff-info .title{color:#333333; line-height:2.5rem;}
+.diff-info .cont{line-height:2.2rem; padding:0.5rem 0;}
+.diff-info a{font-size:1.4rem; color:#0066cc;}
+
+/*---- 列表 ----*/
+.diff-item{width:100%; overflow:hidden; background-color:#ffffff; border-bottom:1px solid #ededed; border-top:1px solid #ededed; text-align:left; margin:0 auto 1rem;}
+.diff-item .order-code{width:94%; overflow:hidden; border-bottom:1px solid #ededed; text-align:left; font-size:1.4rem; color:#777777; line-height:2.5rem; margin:0 auto; padding:0.6rem 3%;}
+.diff-item .order-code .order-time{float:right; text-align:right; font-size:1.3rem; color:#aaaaaa;}
+.diff-item .item-info{width:94%; overflow:hidden; margin:0 auto; padding:0.5rem;}
+.diff-item .item-info .info-wrap{width:64%; overflow:hidden; float:left; text-align:left; font-size:1.6rem; color:#333333; line-height:2.2rem;}
+.diff-item .item-info .info-wrap .valid-period{display:block; font-size:1.4rem; color:#777777;}
+.diff-item .item-info .info-wrap .stress{color:#cc0000;}
+.diff-item .item-info input{width:23%; height:3rem; display:block; float:right; border:1px solid #83b842; border-radius:4px; text-align:center; font-size:1.5rem; color:#83b842; margin-top:7px;}
+.diff-item .item-info input:disabled{border-color:#cccccc;}
+.diff-item .item-state{width:94%; overflow:hidden; border-top:1px solid #ededed; text-align:left; font-size:1.6rem; color:#cc0000; line-height:2rem; margin:0 auto; padding:0.5rem 3%;}
+
+
+
+
+/*===================================================================
+    客户服务
+=====================================================================*/
+.service-wrap{margin-top:4.2rem; margin-bottom:1.5rem;}
+.service-wrap .dashboard li{background-color:transparent;}
+.service-wrap .dashboard li:first-child,
+.service-wrap .dashboard li:nth-child(4),.service-wrap .dashboard li:nth-child(8){margin-bottom:0;}
+
+
+
+
+/*===================================================================
+    短信验证
+=====================================================================*/
+.sms-verify-wrap{margin-top:4rem; margin-bottom:1.5rem;}
+.sms-verify-wrap .wrap-verify-phone{background-color:transparent; border:0; position:static;}
+.sms-verify-wrap .wrap-verify-phone .field-list{background-color:#ffffff;}
+.sms-verify-wrap .wrap-verify-phone .result-tip{padding-top:1rem;}
+

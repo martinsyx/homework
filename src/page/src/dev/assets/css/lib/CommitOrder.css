@@ -1,0 +1,429 @@
+﻿/*===================================================================
+    结算页
+=====================================================================*/
+dialog,.dialog .CloseIco {
+    float: right;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(//i1.lifevccdn.com/images/h5/icon/cancel.ico);
+    background-repeat: no-repeat;
+    background-position: -0px -0px;
+    background-size: cover;
+    margin-top: -4%;
+    margin-right: -4%;
+}
+
+dialog,.dialog .CouponCodetxt {
+    line-height: 40px;
+}
+
+dialog,.dialog .buttondiv {
+    height: 60px;
+    position: fixed;
+    background: #f8f8f8;
+    bottom: 0;
+    width: 100%;
+}
+
+    dialog,.dialog .buttondiv button {
+        font-family: 'Microsoft YaHei';
+        border: solid 0;
+        text-align: center;
+        font-size: 1.2em;
+        width: 80px;
+        background-color: #10b122;
+        color: #fff;
+        outline: none;
+    }
+
+.coupon {
+    border: solid 1px #ccc;
+    padding: 2px;
+    float: left;
+    margin: 4px;
+}
+
+/*-------- 商品信息|结算信息 --------*/
+.wrap-item-panel{background-color:#ffffff;}
+/*---- 商品信息 ----*/
+.ck-item{width:96%; overflow:hidden; margin:0 auto; padding:1rem 0; position:relative;}
+.ck-item .ck-item-pic{width:22%; float:left; margin-right:10px; padding:0;}
+.ck-item .ck-item-count{display:inline-block; float:left; text-align:left; font-size:1.4rem; color:#333333; line-height:2rem; margin:2rem 0 0 1rem;}
+.ck-item .rightico{position:absolute; right:0; top:35%;}
+/* 商品清单页面 */
+.ck-header .header-content{position:relative;}
+.ck-header .ck-header-count{font-size:1.4rem; color:#ffffff; line-height:2rem; position:absolute; right:2%; top:1.5rem;}
+.ck-item-link{width:100%; overflow:hidden; display:block; background-color:#ffffff; border-bottom:1px solid #dddddd; padding:0.3rem 0;}
+
+
+/*---- 促销信息 ----*/
+.ck-promo{width:96%; overflow:hidden; border-top:1px solid #dddddd; text-align:left; font-size:1.4rem; line-height:28px; margin:0.5rem auto 0; padding:1rem 0;}
+.ck-promo img{width:28px; overflow:hidden; float:left; margin-right:10px;}
+
+
+
+
+.Product-item .Product-Info {width:75%; float:right; padding:0;}
+
+.item-ItemInfoName {
+    float: left;
+    width: 75%;
+}
+
+.item-SalePrice {
+    float: right;
+    width: 25%;
+    text-align: right;
+}
+
+.item-GroupAttr {
+    float: left;
+    width: 70%;
+    color: #ccc;
+}
+
+.item-Quantity {
+    float: right;
+    width: 28%;
+    text-align: right;
+}
+
+
+dd div.checked-radio {
+    height: 2.4rem;
+    width: 5rem;
+    background-color: #10b122;
+    float: right;
+    padding: 1px;
+    border: solid 0px #ccc;
+    border-radius: 1.2rem;
+}
+
+dd div.unchecked-radio {
+    height: 2.4rem;
+    width: 5rem;
+    background-color: #ccc;
+    float: right;
+    padding: 1px;
+    border: solid 0px #ccc;
+    border-radius: 1.2rem;
+    margin-top: 3px;
+}
+
+    dd div.unchecked-radio div {
+        height: 2.4rem;
+        width: 2.4rem;
+        background-color: #fff;
+        float: left;
+        border-radius: 1.2rem;
+    }
+
+    dd div.checked-radio div{
+         height: 2.4rem;
+        width: 2.4rem;
+        background-color: #fff;
+        float: right;
+        border-radius: 1.2rem;
+    }
+
+
+.comment-body > dd {
+    margin: 1rem 0;
+    background-color: #fff;
+    padding-left: 1rem;
+}
+
+dd.Address{width:auto;}
+    dd.Address div.ico{width:3rem; height:4rem; background-image:url(//i1.lifevccdn.com/images/h5/icon/addressgreen.ico);
+        background-repeat:no-repeat; background-size:contain;}
+    dd.Address div.rightico{width:2rem; height:2rem; float:right;
+        background:url('//i1.lifevccdn.com/images/h5/icon/rightarrow1.ico') no-repeat -0.2rem 0.2rem;
+        background-repeat:no-repeat; background-size:100%;}
+    dd.Address .major{font-size:1.5rem;}
+
+
+dd.Delivery {
+    width: auto;
+    height: 6rem;
+}
+
+    dd.Delivery div.rightico {
+        float: right;
+        height: 2rem;
+        width: 2rem;
+        background: url('//i1.lifevccdn.com/images/h5/icon/rightarrow1.ico') no-repeat -0.2rem 0.2rem;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top:1.2em;
+    }
+
+    dd.Delivery .DeliveryInfo {
+        width: 88%;
+        float: left;
+        padding: .5rem 0rem;
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+
+    dd.Delivery div.DeliveryInfo span.ExpressCompany {
+        width: auto;
+        float: right;
+        margin-right: 2%;
+    }
+
+    dd.Delivery div.DeliveryInfo div.DeliveryTime {
+        width: auto;
+        margin-top: 5px;
+        color: #999999;
+    }
+
+
+
+dd.ValidPayWayCode {
+    padding: 2%;
+    width: auto;
+    color:#000000;
+}
+
+    dd.ValidPayWayCode table.warp-validPayWayCode {
+        margin-top: 8px;
+        width: 96%;
+        padding-bottom:6px;
+    }
+
+
+
+
+dd div.checkbox.check {
+    background-image: url(//i1.lifevccdn.com/images/h5/icon/Selected.ico);
+    background-size: 180%;
+    background-position:-.8rem -.6rem;
+    border: solid 0px #ccc;
+}
+
+dd div.checkbox {
+    border: solid 1px #ccc;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    float: left;
+}
+
+
+dd.Invoice {
+    padding: 2%;
+    width: 96%;
+}
+
+dd span.subtitle {
+    color: #ccc;
+}
+
+dd.Invoice span.InvoiceType {
+    float: right;
+    width: auto;
+}
+
+
+
+dd.CouponCode {
+    padding: 2%;
+    height: 3rem;
+    width: auto;
+}
+
+.Price {
+    width: 50%;
+}
+
+.Orderinfo {
+    padding: 0rem 2%;
+    background-color: #fff;
+}
+
+    .Orderinfo td {
+        line-height: 2rem;
+        width: 50%;
+    }
+
+dd.OrderCode p.Code {
+    text-align: right;
+    padding: 0;
+    margin-right: 4%;
+}
+
+dd.OrderCode p.StatusName {
+    text-align: left;
+    color: #ff6a00;
+    padding: 0;
+}
+
+    footer span.Price {
+        color: #cc0000;
+    }
+
+    footer button {
+        margin-right: 2%;
+        border: solid 1px #cacbcb;
+        background-color: #cacbcb;
+        color: #fff;
+        padding: 1rem;
+        float: right;
+    }
+
+dd.OrderCode {
+    width: 100%;
+    padding-right: 2%;
+}
+
+dd {
+    margin: 2% auto;
+    /*margin-right: 2%;*/
+    background-color: #fff;
+    /*padding-left: 1rem;*/
+}
+
+    dd.ValidPayWayCode {
+        padding: 2%;
+        /* height: 15rem; */
+        width: auto;
+    }
+
+    dd.Invoice {
+        padding: 2%;
+        width: auto;
+    }
+
+d.Invoice span.InvoiceType {
+    float: right;
+    width: auto;
+}
+
+.Parcel {
+    padding-top: 2%;
+    line-height: 2.5rem;
+    width: auto;
+    border-top: solid 2px #ccc;
+    background-color: #fff;
+}
+
+    .Parcel div.ico {
+        height: 3rem;
+        width: 3rem;
+        background-image: url(//i1.lifevccdn.com/images/h5/icon/parcelgreen.ico);
+        background-repeat: no-repeat;
+        background-position: -1.3rem -1.2rem;
+        background-size: 170%;
+        float: left;
+        margin-left: 1rem;
+        margin-right: 2%;
+    }
+
+td.Price {
+    color: #cc0000;
+    text-align: right;
+}
+
+
+
+.Alipay_AppIco {
+    height: 2.7rem;
+    width: 2.7rem;
+    background-image: url(//i1.lifevccdn.com/images/h5/icon/alipay.ico);
+    background-size: 245%;
+    background-position: -1.9rem -2rem;
+}
+
+.Alipay_HtmlIco {
+    height: 2.7rem;
+    width: 2.7rem;
+    background-image: url(//i1.lifevccdn.com/images/h5/icon/pay.ico);
+    background-size: 170%;
+    background-position: -1rem -.9rem;
+}
+
+.CODIco {
+    height: 2.7rem;
+    width: 2.7rem;
+    background-image: url(//i1.lifevccdn.com/images/h5/icon/priceyellow.ico);
+    background-size: 170%;
+    background-position: -.9rem -1rem;
+}
+
+.Wx_JsApiIco {
+    height: 2.7rem;
+    width: 2.7rem;
+    background-image: url(//i1.lifevccdn.com/images/h5/paywayweixingmobile.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.rightico {
+    float: right;
+    height: 3rem;
+    width: 1.5rem;
+    background: url('//i1.lifevccdn.com/images/h5/icon/rightarrow1.ico');
+    background-repeat: no-repeat;
+    background-size: 140%;
+    /*background-position: -.5rem 2rem;*/
+    background-position: -.4rem 0.2rem;
+}
+
+dialog,.dialog {
+    padding: 2%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1999;
+    width: 96%;
+    border: 0;
+    background: #fff;
+}
+
+    dialog,.dialog .CouponCodetxt {
+        height: 7rem;
+        /* line-height: 5rem; */
+    }
+
+    dialog,.dialog .warp-Coupon {
+        height: 18rem;
+    }
+
+        dialog,.dialog .warp-Coupon .coupon {
+            margin: 0px;
+            margin-right: 1rem;
+            padding: .2rem .5rem;
+            float: left;
+        }
+
+    dialog,.dialog .buttondiv {
+        height: 4rem;
+        position: fixed;
+        background: #f8f8f8;
+        bottom: 0;
+        width: 100%;
+    }
+
+        dialog,.dialog .buttondiv button {
+            font-family: 'Microsoft YaHei';
+            border: solid 0px;
+            /* height: 6rem; */
+            text-align: center;
+            width: 50%;
+            background-color: #10b122;
+            color: #fff;
+            /* margin-top: 1rem; */
+            outline: none;
+            padding: .5rem;
+            margin-top: .8rem;
+        }
+
+    dialog input[type=text], dialog input[type=password] {
+        font-family: 'Microsoft YaHei';
+        padding: 5px;
+        width: 97%;
+        border: solid 1px #ccc;
+    }
+
+    dialog,.dialog #Integral-dialog {
+        height: 15rem;
+    }

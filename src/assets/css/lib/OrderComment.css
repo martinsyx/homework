@@ -1,0 +1,50 @@
+﻿/*丽芙家居我的订单评论脚本*/
+/*创建人：王斌鑫*/
+/*创建时间：2015.6.25*/
+
+.wrap-OrderComment{font-size:1.35rem; background-color:#fff; margin:0 auto; width:auto;}
+.OrderComment{margin:0 auto; width:100%;}
+.fixed{position:fixed;}
+.OrderCode{width:96%; background-color:#fff; top:4rem; height:3rem; margin:0; line-height:3rem; padding:2%; border-bottom:1px solid #ccc;}
+
+.comment-body{overflow:hidden; background-color:#ffffff; margin-bottom:0;}
+.comment-body dl{padding:4rem 0 0;}
+.comment-body dd{width:96%; overflow:hidden; border-bottom:1px solid #eeeeee; padding:1rem 2%; margin:0;}
+.comment-body dd:last-child{border:0;}
+.comment-body dd .comm-btn{min-width:18%; display:inline-block; float:right; border:1px solid #89be48; border-radius:4px; text-align:center; font-size:1.3rem; color:#89be48; line-height:1.5rem; margin-right:2%; padding:0.6rem 0.5rem;}
+.comment-body dd .comm-btn.disabled{background:none !important; background-color:transparent; border-color:#999999; color:#808080 !important;}
+.comment-body .comm-score{overflow:hidden; text-align:left; font-size:1.35rem; color:#2e2e2e; line-height:2.4rem;}
+.comment-body .comm-score span{display:inline-block; float:left;}
+.comment-body .comm-score .tt{padding-right:0.5rem;}
+.comment-body .comm-score .rst{color:#009933;}
+.comment-body .comm-score .item-cont{padding:0 0.8rem 0 0.3rem;}
+.comment-body .handl{padding-top:0.5rem;}
+.comment-body .handl .checkbox{width:2rem; height:2rem; display:inline-block; float:left; border:1px solid #cccccc; border-radius:2.5rem; margin:0; position:relative; top:-0.3rem;}
+.comment-body .handl .checkbox.check{background-image:url(//i1.lifevccdn.com/images/h5/icon/Selected.ico); background-size:180%; background-position:-.8rem -.6rem; border-color:#88C13E;}
+.comment-body .score-btn{width:96%; overflow:hidden; background-color:#ffffff; margin:0 auto; padding:0.8rem 2%;}
+.comment-body .score-btn button{min-width:18%; display:inline-block; float:right; border:1px solid #89be48; border-radius:4px; text-align:center; font-size:1.3rem; color:#89be48; line-height:1.5rem; padding:0.6rem 0.5rem;}
+
+
+dd .commdtyTitle{line-height:3rem;}
+dd.open .commdtyTitle,
+dd .wrap-commdtyInfo,
+dd .wrap-Comment{display:none;}
+dd.open .wrap-commdtyInfo,
+dd.open .wrap-Comment{display:block;}
+
+dd img.ico{float:right; margin-top:.7rem; height:1.5rem;}
+dd.open img.ico{margin-top:0rem; float:right; height:1.5rem;}
+
+dd .commdtyImage{float:left; height:6rem; width:20%;}
+dd .commdtyImage img{width:100%;}
+dd .commdtyInfo{float:left; height:6rem; font-size:1.2rem; width:45%; margin-left:2%;}
+
+dd .wrap-commdtyInfo{height:6rem; padding-top:2%;}
+.wrap-Comment span{padding:2%; border:solid 1px #ccc; border-radius:.6rem; background-color:#ccc;}
+
+
+.comment-body textarea{width:96%; height:6rem; overflow:hidden; border:1px solid #00822e; outline:none; margin:0 auto; padding:2%; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; font-size:1.5rem;}
+.comment-body .counter{overflow:hidden; text-align:right; padding:0.6rem 0;}
+.comment-body .wrap-btn{overflow:hidden; margin:1rem 0;}
+.comment-body .wrap-btn button{width:100%; overflow:hidden; display:block; background:#00822e; border:0px; text-align:center; font-size:1.5rem; color:#ffffff; line-height:1.6rem; letter-spacing:1rem; text-indent:1rem; margin:0 auto;}
+

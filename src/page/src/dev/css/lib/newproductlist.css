@@ -1,0 +1,39 @@
+﻿/*丽芙家居新品列表样式*/
+/*创建人：王斌鑫*/
+/*创建时间：2015.6.15*/
+
+
+.middle-newcontentlist {
+    margin-top:135px;
+}
+
+#texttitle {
+    margin-top:10px;
+}
+
+.wrap-content {
+    margin-top: 20px;
+    height: auto;
+}
+
+.content-img {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 98%;
+    height: auto;
+    /*background:#4cff00;*/
+}
+
+    .content-img img {
+        display: block;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .content-img a {
+        text-decoration:none;
+    }
+.commentcount {
+    font-size:1.625em;
+}

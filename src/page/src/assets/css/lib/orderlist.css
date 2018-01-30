@@ -1,0 +1,144 @@
+﻿/*===================================================================
+    我的订单
+=====================================================================*/
+.od-list-wrap{margin:8rem auto 0;}
+
+/*-------- State Tab Start --------*/
+.od-list-wrap .tab-state{width:100%; height:4.7rem; background:#ffffff; border-bottom:1px solid #dddddd; position:fixed; top:4rem; z-index:9;}
+.od-list-wrap .tab-state ul{width:100%; height:4.7rem; overflow:hidden; margin:0 auto;}
+.od-list-wrap .tab-state li{width:27%; height:2.4rem; float:left; -moz-border-radius:2.5rem; -webkit-border-radius:2.5rem; border-radius:2.5rem; 
+text-align:center; font-size:1.35rem; color:#000000; line-height:2.4rem; font-family:'Microsoft YaHei'; cursor:pointer; margin:1.2rem 3% 0;}
+.od-list-wrap .tab-state .selected{background:#88C13E; color:#ffffff;}
+/*-------- /State Tab End --------*/
+
+
+
+
+/*-------- List Start --------*/
+.od-list-wrap .list-wrap{width:100%; margin:0 auto;}
+.od-list-wrap .list-wrap .list{width:100%;}
+.od-list-wrap .list-wrap .list .OrderCode .order-action-pay{float:right; background-color:#cc0000; border:1px solid #cc0000; border-radius:6px; text-align:center; font-size:1.35rem; color:#ffffff; line-height:1.1rem;
+ margin:0.2rem 0 0; padding:8px 12px;}
+/*-------- /List Tab End --------*/
+
+
+
+
+
+/*===================================================================
+    Pay Way
+=====================================================================*/
+.pay-way-wrap{margin:4rem auto 0;}
+.pay-way-wrap .pay-way .pay-amount{width:96%; overflow:hidden; text-align:left; font-size:1.6rem; color:#333333; line-height:2em; margin:0 auto; padding:0.6em 0;}
+.pay-way-wrap .pay-way .pay-amount span{display:inline-block; float:right; text-align:right;}
+
+.pay-way-wrap .pay-way .ways{width:100%; overflow:hidden; background-color:#ffffff; border-top:1px solid #ebebeb;}
+.pay-way-wrap .pay-way .ways li{overflow:hidden;}
+.pay-way-wrap .pay-way .ways li a{display:block;}
+.pay-way-wrap .pay-way .ways .way-item{width:85%; min-height:2.6rem; float:right; border-bottom:1px solid #ebebeb; text-align:left; vertical-align:middle; font-size:1.7rem; color:#333333; line-height:1.5em; padding:0.5em 0; position:relative;}
+.pay-way-wrap .pay-way .ways .way-item .item-info{display:block; text-align:left; font-size:1.4rem; color:#999999; line-height:1.3em;}
+.pay-way-wrap .pay-way .ways .way-item .item-i{overflow:hidden; display:block; position:absolute; left:-15%; top:26%;}
+.pay-way-wrap .pay-way .ways .way-item:after{content:""; width:10px; height:10px; display:block; border-right:2px solid #cccccc; border-top:2px solid #cccccc; position:absolute; right:4.7%; top:40%;
+transform:rotate(45deg);
+-ms-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-webkit-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+}
+.pay-way-wrap .pay-way .ways .noinfo .way-item{line-height:2.6rem;}
+/*-------- /Pay Way End --------*/
+
+
+
+
+
+article.middle{margin-bottom:0; padding-bottom:2rem;}
+.middlecontext{margin-top:8rem;}
+
+
+
+.OrderItem {
+    margin-top: 1.6rem;
+    background-color: #fff;
+    margin-bottom: .5rem;
+}
+
+
+.wrap-OrderList {
+    padding-top: 0.5rem;
+}
+
+    .wrap-OrderList .OrderItem .OrderCode {
+        border-bottom: solid 1px #efefef;
+        padding:5px 2%;
+    }
+
+    .wrap-OrderList .OrderItem .wrap-Details {
+        border-bottom: solid 1px #efefef;
+        padding: 2%;
+        font-size: 1.5rem;
+        line-height: 7rem;
+        overflow:hidden;
+    }
+
+        .wrap-OrderList .OrderItem .wrap-Details .Detail {
+            float: left;
+            margin: .5rem;
+            height: 6rem;
+        }
+
+
+    .wrap-OrderList .OrderItem .Actions {
+        border-bottom: solid 1px #dfdfdf;
+        height: 3.6rem;
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
+    }
+
+        .wrap-OrderList .OrderItem .Actions span {
+            line-height: 3.6rem;
+            font-weight: bold;
+        }
+
+        .wrap-OrderList .OrderItem .Actions button {
+            float: right;
+            margin-top: 0.6rem;
+            margin-left: .3rem;
+            padding: .3rem .5rem;
+            text-align: center;
+            border-radius: .5rem;
+            background-color: #fff;
+            font-size: 1.35rem;
+        }
+
+.order-action-has_commit {
+    border: solid 1px silver;
+    color: silver;
+     margin-top: 0.6rem;
+    margin-left: .3rem;
+    padding: .3rem .5rem;
+    text-align: center;
+    border-radius: .5rem;
+    background-color: #fff;
+    font-size: 1.35rem;
+}
+
+
+.order-status{text-align:center; font-size:1.35rem; color:#88C13E; margin-top:0.6rem; margin-left:.3rem; padding:.3rem .5rem;}
+
+.order-action-cancel,
+.order-action-save,
+.order-action-confirm_receipt,
+.order-action-pay,
+.order-action-view_logistics,
+.order-action-reorder,
+.order-action-commit,
+.order-action-view_replycommits,
+.order-action-share,
+.order-action-remove,
+.order-action-modify{background-color:#ffffff; border:solid 1px #88C13E; border-radius:.5rem; text-align:center; font-size:1.35rem; color:#10b122;
+ margin-top:0.6rem; margin-left:.3rem; padding:.3rem .5rem;}
+
+.order-action-pay{background-color:#cc0000; border-color:#cc0000; color:#ffffff;}
+.od-detail-footer{height:3.5rem;}
+.od-detail-footer .order-action-cancel{background-color:transparent; border:0; color:#333333; float:left;}

@@ -1,0 +1,156 @@
+﻿/*===================================================================
+    订单详情
+=====================================================================*/
+.od-detail-wrap{margin:4rem auto 3.5rem;}
+
+/*-------- Order Code Start --------*/
+.od-detail-wrap .od-code{width:96%; overflow:hidden; background-color:#ffffff; text-align:right; font-size:1.4rem; color:#000000; line-height:2.2rem; margin:0 auto; padding:0.8rem 2%;}
+.od-detail-wrap .od-code span{display:inline-block;}
+.od-detail-wrap .od-code .od-state{display:inline-block; float:left; text-align:left; font-size:1.6rem; color:#cc0000;}
+/*-------- /Order Code End --------*/
+
+
+
+
+/*-------- Address Start --------*/
+.od-detail-wrap .od-addr{width:96%; overflow:hidden; background-color:#ffffff; text-align:left; font-size:1.6rem; color:#000000; line-height:2rem; margin:0.8rem auto 0; padding:0.5rem 2%;}
+.od-detail-wrap .od-addr .i-show{width:3rem; overflow:hidden; display:inline-block; margin-right:10px;}
+.od-detail-wrap .od-addr .addr-cont{font-size:1.4rem; color:#666666;}
+.od-detail-wrap .od-addr .arr-r{width:10px; height:10px; display:inline-block; border-right:2px solid #009c42; border-top:2px solid #009c42;
+transform:rotate(45deg);
+-ms-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-webkit-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+}
+/*-------- /Address End --------*/
+
+
+
+
+#p1 {
+    margin-top:0px;
+    font-size:1.5em;
+    text-align:left;
+}
+#p2 {
+    text-align:right;
+
+}
+#address {
+    margin-top:15px;
+    margin-bottom:15px;
+}
+#name {
+    margin-top:0px;
+    padding-bottom:30px;
+   font-size: 1.5em;
+}
+#CellPhone {
+    padding-top:0px;
+}
+.addressico1 {
+    height: 70px;
+    width: 60px;
+    background-image: url(//i1.lifevccdn.com/images/h5/icon/addressgreen.ico);
+    background-position: 0px 7px;
+   background-repeat:no-repeat;
+    background-size: 100%;
+}
+#payway {
+    height:50px;
+}
+#validPayWayCode {
+    height:100px;
+    line-height:2.5em;
+        margin-bottom:15px;
+}
+.dv2 {
+        margin-bottom: 0px;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 1.25em;
+    padding-bottom: 5px;
+    height:80px;
+        border-bottom: solid 1px #ccc;
+}
+#detailbox {
+    width:100%;
+    height:auto;
+    background-color:#fff;
+    margin:0;
+    padding:0;
+}
+#parcel {
+    padding:10px;
+    font-size:1.8em;
+    height:50px;
+    border-bottom: solid 1px #ccc;
+}
+#parcelname {
+   line-height:2em;
+}
+span.packageIco {
+    float:left;
+    height: 50px;
+    width: 50px;
+    background-image: url(//i1.lifevccdn.com/images/h5/icon/parcelgreen.ico);
+    background-position: -20px -20px;
+    background-size: 180%;
+}
+
+#pic {
+    float:left;
+}
+#info {
+    padding:10px;
+    font-size:1.5em;
+    height:160px;
+}
+#parameter {
+    float:left;
+}
+#price {
+    float:right;
+}
+#Orderinfo {
+    width:99%;
+    height:200px;
+    margin-top:15px;
+    font-size:1.8em;
+        padding-bottom:50px;
+}
+#box {
+    height:50px;
+      border-top: solid 1px #ccc;
+      margin-top:10px;
+      padding-top:10px;
+}
+#sum{
+    width:100%;
+    text-align:right;
+}
+#time {
+    padding-top:10px;
+    width:100%;
+    text-align:right;
+    font-size:.7em;
+    color:#ccc;
+}
+
+ .detailLink{
+     text-decoration:none;       
+     padding: 5px 10px;
+            text-align: center;
+            border: solid 1px #88C13E;
+            margin-left: 10px;
+            border-radius: 6px;
+            color: #88C13E;
+            font-size: 1.3em;
+            float:right;
+        }
+#bottom {
+    padding-right:1%;
+    height:40px;
+    margin-top:10px;
+}
